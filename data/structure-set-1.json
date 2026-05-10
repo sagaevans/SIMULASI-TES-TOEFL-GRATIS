@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "testName": "TOEFL ITP-like Practice",
+    "section": "structure",
+    "set": "set-1",
+    "version": "1.1.0",
+    "durationMinutes": 10,
+    "totalQuestions": 10
+  },
+  "items": [
+    {
+      "id": "S001",
+      "type": "sentence-completion",
+      "topic": "Subjunctive after recommendation",
+      "question": "The committee recommended that the proposal _____ before the final meeting.",
+      "choices": [
+        "revises",
+        "be revised",
+        "was revised",
+        "revising"
+      ],
+      "answer": 1,
+      "explanation": "After verbs such as recommend, suggest, or request, formal English often uses the base form. Because the proposal receives the action, the passive form 'be revised' is correct."
+    },
+    {
+      "id": "S002",
+      "type": "sentence-completion",
+      "topic": "Subject-verb agreement",
+      "question": "The number of students in the advanced class _____ increased significantly this semester.",
+      "choices": [
+        "have",
+        "has",
+        "are",
+        "were"
+      ],
+      "answer": 1,
+      "explanation": "'The number of' is singular, so it takes the singular verb 'has'."
+    },
+    {
+      "id": "S003",
+      "type": "sentence-completion",
+      "topic": "Parallel structure",
+      "question": "The new program is designed to improve writing skills, expand vocabulary, and _____ listening comprehension.",
+      "choices": [
+        "develop",
+        "developing",
+        "development of",
+        "to developing"
+      ],
+      "answer": 0,
+      "explanation": "The verbs in the list must be parallel: improve, expand, and develop."
+    },
+    {
+      "id": "S004",
+      "type": "error-identification",
+      "topic": "Preposition usage",
+      "question": "Many researchers are interested in the effects of climate change to coastal communities.",
+      "choices": [
+        "Many researchers",
+        "interested in",
+        "effects of",
+        "to coastal communities"
+      ],
+      "answer": 3,
+      "explanation": "The correct phrase is 'effects on coastal communities', not 'effects to coastal communities'."
+    },
+    {
+      "id": "S005",
+      "type": "error-identification",
+      "topic": "Past participle",
+      "question": "The report was writing by a team of economists from several universities.",
+      "choices": [
+        "The report",
+        "was writing",
+        "a team of economists",
+        "several universities"
+      ],
+      "answer": 1,
+      "explanation": "Passive voice requires be + past participle. The correct form is 'was written', not 'was writing'."
+    },
+    {
+      "id": "S006",
+      "type": "sentence-completion",
+      "topic": "Reduced adjective clause",
+      "question": "The documents _____ in the archive provide important evidence about the early history of the city.",
+      "choices": [
+        "store",
+        "stored",
+        "storing",
+        "stores"
+      ],
+      "answer": 1,
+      "explanation": "'Stored in the archive' is a reduced adjective clause meaning 'that are stored in the archive'. The past participle 'stored' is correct."
+    },
+    {
+      "id": "S007",
+      "type": "sentence-completion",
+      "topic": "Comparative structure",
+      "question": "The new microscope is much more powerful _____ the one the laboratory used last year.",
+      "choices": [
+        "as",
+        "than",
+        "to",
+        "from"
+      ],
+      "answer": 1,
+      "explanation": "Comparative adjectives such as 'more powerful' are followed by 'than'."
+    },
+    {
+      "id": "S008",
+      "type": "error-identification",
+      "topic": "Conjunction",
+      "question": "Although the experiment was difficult, but the students completed it successfully.",
+      "choices": [
+        "Although",
+        "was difficult",
+        "but",
+        "completed it"
+      ],
+      "answer": 2,
+      "explanation": "Do not use 'although' and 'but' together in the same clause structure. The word 'but' should be removed."
+    },
+    {
+      "id": "S009",
+      "type": "sentence-completion",
+      "topic": "Inversion after negative adverbial",
+      "question": "Not only _____ the professor explain the theory, but she also gave several practical examples.",
+      "choices": [
+        "did",
+        "does",
+        "was",
+        "has"
+      ],
+      "answer": 0,
+      "explanation": "After 'Not only' at the beginning of a sentence, inversion is used. Because the main verb is 'explain' and the sentence refers to the past, 'did' is correct."
+    },
+    {
+      "id": "S010",
+      "type": "error-identification",
+      "topic": "Noun form",
+      "question": "The discover of the ancient settlement changed historians' understanding of the region.",
+      "choices": [
+        "The discover",
+        "ancient settlement",
+        "changed",
+        "understanding of"
+      ],
+      "answer": 0,
+      "explanation": "The noun form is 'discovery', not 'discover'. The correct phrase is 'The discovery of the ancient settlement'."
+    }
+  ]
+}

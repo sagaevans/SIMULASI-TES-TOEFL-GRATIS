@@ -1,0 +1,59 @@
+{
+  "appName": "TOEFL ITP-like Practice",
+  "version": "1.0.0",
+  "defaultSetId": "set-1",
+  "sets": [
+    {
+      "id": "set-0",
+      "title": "Set 0 - Mixed Full Test",
+      "description": "Random full TOEFL ITP-like simulation generated from all active practice sets.",
+      "status": "active",
+      "type": "mixed",
+      "fullTestOnly": true,
+      "sourceSets": "all-active",
+      "targetQuestions": {
+        "listening": 50,
+        "structure": 40,
+        "reading": 50
+      },
+      "durationMinutes": {
+        "listening": 35,
+        "structure": 25,
+        "reading": 55
+      }
+    },
+    {
+      "id": "set-1",
+      "title": "Practice Set 1",
+      "description": "Beginner quick practice set with 10 Listening, 10 Structure, and 10 Reading questions.",
+      "status": "active",
+      "files": {
+        "listening": "data/listening-set-1.json",
+        "structure": "data/structure-set-1.json",
+        "reading": "data/reading-set-1.json"
+      }
+    },
+    {
+      "id": "set-2",
+      "title": "Practice Set 2",
+      "description": "Medium TOEFL ITP-like practice set with 20 Listening, 20 Structure, and 20 Reading questions.",
+      "status": "active",
+      "files": {
+        "listening": "data/listening-set-2.json",
+        "structure": "data/structure-set-2.json",
+        "reading": "data/reading-set-2.json"
+      }
+    },
+    {
+      "id": "set-3",
+      "title": "Practice Set 3",
+      "description": "Advanced long practice set with 30 Listening, 30 Structure, and 30 Reading questions.",
+      "status": "active",
+      "files": {
+        "listening": "data/listening-set-3.json",
+        "structure": "data/structure-set-3.json",
+        "reading": "data/reading-set-3.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Admin - Simulasi Tes TOEFL Gratis</title>
+
+  <link rel="stylesheet" href="css/admin.css" />
+</head>
+<body>
+
+  <header class="admin-header">
+    <div class="admin-header-inner">
+      <div class="admin-badge">Complete Set JSON Upload</div>
+      <h1>SIMULASI TES TOEFL-GRATIS</h1>
+      <p>Admin Panel for TOEFL ITP-like Question Sets</p>
+    </div>
+  </header>
+
+  <main class="admin-container">
+
+    <section class="admin-card intro-card">
+      <h2>Admin Overview</h2>
+
+      <p>
+        This admin page is designed to upload a complete TOEFL ITP-like practice set
+        to your GitHub repository.
+      </p>
+
+      <div class="notice-box">
+        <strong>Complete Set Mode:</strong>
+        You must provide three valid JSON files: Listening, Structure, and Reading.
+        After upload, the system will automatically update <code>data/manifest.json</code>.
+      </div>
+
+      <div class="warning-box">
+        <strong>Security note:</strong>
+        Your GitHub token is used only in this browser session to call the GitHub API.
+        Do not share your token publicly.
+      </div>
+    </section>
+
+    <section class="admin-card">
+      <h2>1. GitHub Repository Access</h2>
+
+      <div class="form-grid">
+        <div class="form-group full-width">
+          <label for="githubToken">GitHub Personal Access Token</label>
+          <input
+            type="password"
+            id="githubToken"
+            placeholder="ghp_xxxxxxxxxxxxxxxxxxxx"
+            autocomplete="off"
+          />
+          <p class="hint">
+            Use a GitHub token with repository contents read/write permission.
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label for="githubOwner">Repository Owner</label>
+          <input
+            type="text"
+            id="githubOwner"
+            placeholder="example: sagaevans"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="githubRepo">Repository Name</label>
+          <input
+            type="text"
+            id="githubRepo"
+            placeholder="example: simulasi-tes-toefl-gratis"
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="githubBranch">Branch</label>
+          <input
+            type="text"
+            id="githubBranch"
+            value="main"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="admin-card">
+      <h2>2. New Set Information</h2>
+
+      <div class="form-grid">
+        <div class="form-group">
+          <label for="setNumber">Set Number</label>
+          <input
+            type="number"
+            id="setNumber"
+            min="1"
+            placeholder="example: 4"
+          />
+          <p class="hint">
+            This will create files such as <code>listening-set-4.json</code>.
+          </p>
+        </div>
+
+        <div class="form-group">
+          <label for="setTitle">Set Title</label>
+          <input
+            type="text"
+            id="setTitle"
+            placeholder="example: Practice Set 4"
+          />
+        </div>
+
+        <div class="form-group full-width">
+          <label for="setDescription">Set Description</label>
+          <textarea
+            id="setDescription"
+            class="small-textarea"
+            placeholder="example: Custom TOEFL ITP-like practice set with original questions."
+          ></textarea>
+        </div>
+      </div>
+
+      <div class="file-preview-box">
+        <h3>Files that will be created</h3>
+        <p id="filePreview">
+          Fill the set number to preview target file names.
+        </p>
+      </div>
+    </section>
+
+    <section class="admin-card">
+      <h2>3. AI Prompt Helper</h2>
+
+      <p>
+        Use this English prompt with ChatGPT or another AI tool to generate compatible JSON.
+      </p>
+
+      <div class="button-row">
+        <button type="button" onclick="generatePromptHelper()">
+          Generate Prompt
+        </button>
+
+        <button type="button" class="secondary-button" onclick="copyPromptHelper()">
+          Copy Prompt
+        </button>
+      </div>
+
+      <textarea
+        id="promptHelper"
+        class="prompt-textarea"
+        readonly
+        placeholder="Click Generate Prompt to create an English prompt for AI."
+      ></textarea>
+    </section>
+
+    <section class="admin-card">
+      <h2>4. Paste Complete Set JSON</h2>
+
+      <div class="json-grid">
+
+        <div class="json-panel">
+          <h3>Listening JSON</h3>
+          <p class="hint">
+            Expected file: <code id="listeningFileName">data/listening-set-X.json</code>
+          </p>
+
+          <textarea
+            id="listeningJson"
+            class="json-textarea"
+            spellcheck="false"
+            placeholder="Paste listening-set-X.json here..."
+          ></textarea>
+        </div>
+
+        <div class="json-panel">
+          <h3>Structure JSON</h3>
+          <p class="hint">
+            Expected file: <code id="structureFileName">data/structure-set-X.json</code>
+          </p>
+
+          <textarea
+            id="structureJson"
+            class="json-textarea"
+            spellcheck="false"
+            placeholder="Paste structure-set-X.json here..."
+          ></textarea>
+        </div>
+
+        <div class="json-panel">
+          <h3>Reading JSON</h3>
+          <p class="hint">
+            Expected file: <code id="readingFileName">data/reading-set-X.json</code>
+          </p>
+
+          <textarea
+            id="readingJson"
+            class="json-textarea"
+            spellcheck="false"
+            placeholder="Paste reading-set-X.json here..."
+          ></textarea>
+        </div>
+
+      </div>
+
+      <div class="button-row">
+        <button type="button" onclick="validateCompleteSet()">
+          Validate Complete Set
+        </button>
+
+        <button type="button" class="secondary-button" onclick="formatAllJson()">
+          Format JSON
+        </button>
+
+        <button type="button" class="danger-button" onclick="clearAllJson()">
+          Clear JSON
+        </button>
+      </div>
+
+      <div id="validationResult" class="result-box hidden"></div>
+    </section>
+
+    <section class="admin-card">
+      <h2>5. Upload to GitHub</h2>
+
+      <p>
+        After validation succeeds, click upload. The admin will upload the three JSON files
+        and update <code>data/manifest.json</code> automatically.
+      </p>
+
+      <div class="button-row">
+        <button type="button" class="upload-button" onclick="uploadCompleteSetToGitHub()">
+          Upload Complete Set to GitHub
+        </button>
+      </div>
+
+      <div id="uploadResult" class="result-box hidden"></div>
+    </section>
+
+    <section class="admin-card">
+      <h2>Navigation</h2>
+
+      <div class="button-row">
+        <a class="link-button" href="index.html">Back to Home</a>
+        <a class="link-button secondary-link" href="README.md">View README</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="admin-footer">
+    <p>
+      This project is not affiliated with, endorsed by, or sponsored by ETS.
+      Scores are estimates for practice only.
+    </p>
+
+    <p>
+      Contact:
+      <a href="mailto:nasotp1@gmail.com">nasotp1@gmail.com</a>
+      |
+      WhatsApp:
+      <a href="https://wa.me/6285692648378" target="_blank">085692648378</a>
+    </p>
+  </footer>
+
+  <script src="js/admin.js"></script>
+</body>
+</html>

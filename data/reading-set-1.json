@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "testName": "TOEFL ITP-like Practice",
+    "section": "reading",
+    "set": "set-1",
+    "version": "1.1.0",
+    "durationMinutes": 10,
+    "totalQuestions": 10
+  },
+  "passages": [
+    {
+      "id": "R-PASSAGE-001",
+      "title": "Urban Green Spaces",
+      "passage": "Many urban planners believe that green spaces play an important role in improving the quality of life in large cities. Parks, community gardens, and tree-lined streets can reduce air pollution, lower urban temperatures, and provide residents with places for exercise and relaxation. In addition, green spaces may strengthen social connections because they give people opportunities to meet and interact in informal settings. However, creating and maintaining these spaces can be challenging. Land in cities is often expensive, and local governments must balance environmental goals with the need for housing, transportation, and commercial development.",
+      "questions": [
+        {
+          "id": "R001",
+          "type": "main-idea",
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "Urban green spaces provide benefits but may be difficult to develop and maintain.",
+            "Cities should replace all commercial buildings with public parks.",
+            "Air pollution is the only major problem in large cities.",
+            "Community gardens are more important than public transportation."
+          ],
+          "answer": 0,
+          "explanation": "The passage explains the benefits of green spaces and also mentions challenges in creating and maintaining them."
+        },
+        {
+          "id": "R002",
+          "type": "detail",
+          "question": "According to the passage, green spaces can help reduce",
+          "choices": [
+            "the number of universities",
+            "air pollution and urban temperatures",
+            "the need for all housing",
+            "commercial development in rural areas"
+          ],
+          "answer": 1,
+          "explanation": "The passage states that parks, community gardens, and tree-lined streets can reduce air pollution and lower urban temperatures."
+        },
+        {
+          "id": "R003",
+          "type": "inference",
+          "question": "What can be inferred about city planning from the passage?",
+          "choices": [
+            "City planners must consider several competing needs.",
+            "Green spaces are always inexpensive to build.",
+            "Housing is never a concern in large cities.",
+            "Commercial development has no effect on planning decisions."
+          ],
+          "answer": 0,
+          "explanation": "The passage says local governments must balance environmental goals with housing, transportation, and commercial development."
+        },
+        {
+          "id": "R004",
+          "type": "vocabulary",
+          "question": "The word 'residents' in the passage is closest in meaning to",
+          "choices": [
+            "people who live in a place",
+            "people who design buildings",
+            "people who travel temporarily",
+            "people who own businesses"
+          ],
+          "answer": 0,
+          "explanation": "In this context, 'residents' means people who live in the city."
+        },
+        {
+          "id": "R005",
+          "type": "purpose",
+          "question": "Why does the author mention housing, transportation, and commercial development?",
+          "choices": [
+            "To show that local governments must balance different urban needs",
+            "To argue that parks should be removed from cities",
+            "To explain why transportation is more important than housing",
+            "To prove that commercial development is impossible in large cities"
+          ],
+          "answer": 0,
+          "explanation": "The author mentions these needs to show that city planning involves balancing environmental goals with other important priorities."
+        }
+      ]
+    },
+    {
+      "id": "R-PASSAGE-002",
+      "title": "The Development of Written Language",
+      "passage": "The invention of writing changed the way human societies stored and transmitted information. Before writing systems developed, knowledge was passed mainly through speech, memory, and repeated practice. This method worked well for small communities, but it became less reliable as societies grew more complex. Written records allowed people to document laws, trade agreements, religious beliefs, and historical events. Over time, writing also made it possible for ideas to travel across long distances and survive for generations. For this reason, many historians view writing as one of the most important developments in human civilization.",
+      "questions": [
+        {
+          "id": "R006",
+          "type": "vocabulary",
+          "question": "The word 'transmitted' in the passage is closest in meaning to",
+          "choices": [
+            "decorated",
+            "sent or passed on",
+            "hidden",
+            "forgotten"
+          ],
+          "answer": 1,
+          "explanation": "In this context, 'transmitted' means sent, shared, or passed from one person or generation to another."
+        },
+        {
+          "id": "R007",
+          "type": "detail",
+          "question": "According to the passage, before writing systems developed, knowledge was mainly passed through",
+          "choices": [
+            "printed books",
+            "electronic messages",
+            "speech, memory, and repeated practice",
+            "international newspapers"
+          ],
+          "answer": 2,
+          "explanation": "The passage directly states that before writing, knowledge was passed mainly through speech, memory, and repeated practice."
+        },
+        {
+          "id": "R008",
+          "type": "purpose",
+          "question": "Why does the author mention laws, trade agreements, religious beliefs, and historical events?",
+          "choices": [
+            "To give examples of information that could be recorded in writing",
+            "To argue that trade was more important than religion",
+            "To show that ancient societies had no spoken language",
+            "To explain why memory is more reliable than writing"
+          ],
+          "answer": 0,
+          "explanation": "These are examples of information that written records helped preserve."
+        },
+        {
+          "id": "R009",
+          "type": "inference",
+          "question": "What can be inferred from the passage about oral tradition?",
+          "choices": [
+            "It was useful, but it had limitations as societies became more complex.",
+            "It was completely useless before writing was invented.",
+            "It was used only for recording trade agreements.",
+            "It was more permanent than written records."
+          ],
+          "answer": 0,
+          "explanation": "The passage says oral methods worked well for small communities but became less reliable as societies grew more complex."
+        },
+        {
+          "id": "R010",
+          "type": "main-idea",
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "Writing greatly changed how societies preserved and shared information.",
+            "Speech is always more reliable than written records.",
+            "Trade agreements were the only reason writing was invented.",
+            "Historians disagree about the importance of writing."
+          ],
+          "answer": 0,
+          "explanation": "The passage focuses on how writing changed the storage, transmission, and preservation of information in human societies."
+        }
+      ]
+    }
+  ]
+}

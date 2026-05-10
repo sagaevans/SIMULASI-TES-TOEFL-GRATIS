@@ -1,0 +1,432 @@
+{
+  "meta": {
+    "testName": "TOEFL ITP-like Practice",
+    "section": "structure",
+    "set": "set-3",
+    "version": "1.0.0",
+    "durationMinutes": 20,
+    "totalQuestions": 30
+  },
+  "items": [
+    {
+      "id": "S3-001",
+      "type": "sentence-completion",
+      "topic": "Subject-verb agreement",
+      "question": "The list of required textbooks _____ available on the department website.",
+      "choices": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'list', which is singular. The correct verb is 'is'."
+    },
+    {
+      "id": "S3-002",
+      "type": "sentence-completion",
+      "topic": "Passive voice",
+      "question": "The new research facility _____ next semester by the university president.",
+      "choices": [
+        "will open",
+        "will be opened",
+        "opening",
+        "has opening"
+      ],
+      "answer": 1,
+      "explanation": "The facility receives the action, so passive voice is needed: 'will be opened'."
+    },
+    {
+      "id": "S3-003",
+      "type": "sentence-completion",
+      "topic": "Adjective clause",
+      "question": "The students _____ completed the online orientation were allowed to register early.",
+      "choices": [
+        "who",
+        "whom",
+        "whose",
+        "which"
+      ],
+      "answer": 0,
+      "explanation": "'Who' refers to people and functions as the subject of the adjective clause."
+    },
+    {
+      "id": "S3-004",
+      "type": "sentence-completion",
+      "topic": "Noun clause",
+      "question": "The committee has not yet decided _____ the conference will be held.",
+      "choices": [
+        "where",
+        "because",
+        "during",
+        "which"
+      ],
+      "answer": 0,
+      "explanation": "'Where' introduces a noun clause that functions as the object of 'decided'."
+    },
+    {
+      "id": "S3-005",
+      "type": "sentence-completion",
+      "topic": "Parallel structure",
+      "question": "The program teaches students how to analyze data, write reports, and _____ presentations.",
+      "choices": [
+        "giving",
+        "to giving",
+        "give",
+        "given"
+      ],
+      "answer": 2,
+      "explanation": "The verbs must be parallel: analyze, write, and give."
+    },
+    {
+      "id": "S3-006",
+      "type": "sentence-completion",
+      "topic": "Gerund",
+      "question": "The professor objected to _____ the deadline without consulting the class.",
+      "choices": [
+        "change",
+        "changed",
+        "changing",
+        "to change"
+      ],
+      "answer": 2,
+      "explanation": "After the preposition 'to' in the expression 'object to', a gerund is used: 'changing'."
+    },
+    {
+      "id": "S3-007",
+      "type": "sentence-completion",
+      "topic": "Infinitive",
+      "question": "The purpose of the study was _____ the relationship between sleep and memory.",
+      "choices": [
+        "examines",
+        "to examine",
+        "examining",
+        "examined"
+      ],
+      "answer": 1,
+      "explanation": "After 'the purpose was', an infinitive is commonly used: 'to examine'."
+    },
+    {
+      "id": "S3-008",
+      "type": "sentence-completion",
+      "topic": "Reduced adjective clause",
+      "question": "The paintings _____ in the museum's west gallery are from the nineteenth century.",
+      "choices": [
+        "display",
+        "displaying",
+        "displayed",
+        "to display"
+      ],
+      "answer": 2,
+      "explanation": "'Displayed in the museum's west gallery' is a reduced adjective clause meaning 'that are displayed'."
+    },
+    {
+      "id": "S3-009",
+      "type": "sentence-completion",
+      "topic": "Comparison",
+      "question": "The second experiment produced results that were far more accurate _____ those of the first experiment.",
+      "choices": [
+        "as",
+        "than",
+        "to",
+        "from"
+      ],
+      "answer": 1,
+      "explanation": "Comparative expressions such as 'more accurate' are followed by 'than'."
+    },
+    {
+      "id": "S3-010",
+      "type": "sentence-completion",
+      "topic": "Conjunction",
+      "question": "The lecture was postponed _____ the speaker's flight had been delayed.",
+      "choices": [
+        "because",
+        "although",
+        "despite",
+        "however"
+      ],
+      "answer": 0,
+      "explanation": "'Because' introduces the reason the lecture was postponed."
+    },
+    {
+      "id": "S3-011",
+      "type": "sentence-completion",
+      "topic": "Inversion",
+      "question": "Only after reviewing the evidence _____ the researchers change their conclusion.",
+      "choices": [
+        "they did",
+        "did they",
+        "they had",
+        "had they"
+      ],
+      "answer": 1,
+      "explanation": "After 'Only after' at the beginning of a sentence, inversion is used: 'did they change'."
+    },
+    {
+      "id": "S3-012",
+      "type": "sentence-completion",
+      "topic": "Conditional",
+      "question": "If the laboratory had received the samples earlier, the results _____ available by now.",
+      "choices": [
+        "will be",
+        "would have been",
+        "are",
+        "were"
+      ],
+      "answer": 1,
+      "explanation": "This is a past unreal conditional. The correct form is 'would have been'."
+    },
+    {
+      "id": "S3-013",
+      "type": "sentence-completion",
+      "topic": "Preposition",
+      "question": "The success of the project depends largely _____ the cooperation of several departments.",
+      "choices": [
+        "of",
+        "on",
+        "with",
+        "for"
+      ],
+      "answer": 1,
+      "explanation": "The correct expression is 'depend on'."
+    },
+    {
+      "id": "S3-014",
+      "type": "sentence-completion",
+      "topic": "Word form",
+      "question": "The researchers were surprised by the _____ of the ancient tools found at the site.",
+      "choices": [
+        "complex",
+        "complexity",
+        "complexly",
+        "complicate"
+      ],
+      "answer": 1,
+      "explanation": "A noun is needed after 'the'. The correct noun form is 'complexity'."
+    },
+    {
+      "id": "S3-015",
+      "type": "sentence-completion",
+      "topic": "Subjunctive",
+      "question": "The advisor suggested that each student _____ a draft before the final deadline.",
+      "choices": [
+        "submits",
+        "submitted",
+        "submit",
+        "submitting"
+      ],
+      "answer": 2,
+      "explanation": "After 'suggested that', formal English uses the base verb: 'submit'."
+    },
+    {
+      "id": "S3-016",
+      "type": "error-identification",
+      "topic": "Subject-verb agreement",
+      "question": "The quality of the lecture notes were improved after the instructor revised them.",
+      "choices": [
+        "quality",
+        "lecture notes",
+        "were improved",
+        "revised them"
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'quality', which is singular. The correct form is 'was improved'."
+    },
+    {
+      "id": "S3-017",
+      "type": "error-identification",
+      "topic": "Passive voice",
+      "question": "The final report was prepare by a group of students from the economics department.",
+      "choices": [
+        "final report",
+        "was prepare",
+        "a group of students",
+        "economics department"
+      ],
+      "answer": 1,
+      "explanation": "Passive voice requires be + past participle. The correct form is 'was prepared'."
+    },
+    {
+      "id": "S3-018",
+      "type": "error-identification",
+      "topic": "Word form",
+      "question": "The scientist gave a detail explanation of the chemical reaction.",
+      "choices": [
+        "scientist",
+        "a detail explanation",
+        "chemical",
+        "reaction"
+      ],
+      "answer": 1,
+      "explanation": "An adjective is needed before 'explanation'. The correct phrase is 'a detailed explanation'."
+    },
+    {
+      "id": "S3-019",
+      "type": "error-identification",
+      "topic": "Preposition",
+      "question": "The professor emphasized the importance for reviewing notes before each examination.",
+      "choices": [
+        "emphasized",
+        "importance for",
+        "reviewing notes",
+        "each examination"
+      ],
+      "answer": 1,
+      "explanation": "The correct expression is 'importance of reviewing', not 'importance for reviewing'."
+    },
+    {
+      "id": "S3-020",
+      "type": "error-identification",
+      "topic": "Conjunction",
+      "question": "Although the library was crowded, but the students found several empty tables.",
+      "choices": [
+        "Although",
+        "was crowded",
+        "but",
+        "several empty tables"
+      ],
+      "answer": 2,
+      "explanation": "Do not use 'although' and 'but' together in this structure. Remove 'but'."
+    },
+    {
+      "id": "S3-021",
+      "type": "error-identification",
+      "topic": "Verb tense",
+      "question": "The students have completed the assignment yesterday before the deadline.",
+      "choices": [
+        "students",
+        "have completed",
+        "yesterday",
+        "deadline"
+      ],
+      "answer": 1,
+      "explanation": "With a specific past time such as 'yesterday', use simple past: 'completed'."
+    },
+    {
+      "id": "S3-022",
+      "type": "error-identification",
+      "topic": "Pronoun reference",
+      "question": "When the laptop was connected to the projector, it did not display the slides clearly.",
+      "choices": [
+        "laptop",
+        "projector",
+        "it",
+        "slides clearly"
+      ],
+      "answer": 2,
+      "explanation": "The pronoun 'it' is ambiguous because it could refer to the laptop or the projector."
+    },
+    {
+      "id": "S3-023",
+      "type": "error-identification",
+      "topic": "Countable noun",
+      "question": "The instructor gave the class several advice about preparing for the examination.",
+      "choices": [
+        "instructor",
+        "several advice",
+        "preparing for",
+        "examination"
+      ],
+      "answer": 1,
+      "explanation": "'Advice' is uncountable. Use 'several pieces of advice' or 'some advice'."
+    },
+    {
+      "id": "S3-024",
+      "type": "error-identification",
+      "topic": "Adjective clause",
+      "question": "The student which won the scholarship plans to study environmental engineering.",
+      "choices": [
+        "student",
+        "which won",
+        "scholarship",
+        "environmental engineering"
+      ],
+      "answer": 1,
+      "explanation": "For people, use 'who' instead of 'which'."
+    },
+    {
+      "id": "S3-025",
+      "type": "error-identification",
+      "topic": "Parallel structure",
+      "question": "The course requires students to read articles, writing summaries, and participate in discussions.",
+      "choices": [
+        "requires",
+        "to read",
+        "writing summaries",
+        "participate"
+      ],
+      "answer": 2,
+      "explanation": "The list should be parallel: to read, write, and participate."
+    },
+    {
+      "id": "S3-026",
+      "type": "error-identification",
+      "topic": "Gerund",
+      "question": "The committee is responsible for review all scholarship applications.",
+      "choices": [
+        "committee",
+        "responsible for",
+        "review",
+        "applications"
+      ],
+      "answer": 2,
+      "explanation": "After a preposition, use a gerund. The correct form is 'reviewing'."
+    },
+    {
+      "id": "S3-027",
+      "type": "error-identification",
+      "topic": "Comparison",
+      "question": "The new database is more efficient as the old filing system.",
+      "choices": [
+        "new database",
+        "more efficient",
+        "as",
+        "filing system"
+      ],
+      "answer": 2,
+      "explanation": "With 'more efficient', the correct comparison word is 'than'."
+    },
+    {
+      "id": "S3-028",
+      "type": "error-identification",
+      "topic": "Infinitive",
+      "question": "The goal of the research project is analyze patterns in student attendance.",
+      "choices": [
+        "goal",
+        "research project",
+        "is analyze",
+        "student attendance"
+      ],
+      "answer": 2,
+      "explanation": "The correct structure is 'is to analyze'."
+    },
+    {
+      "id": "S3-029",
+      "type": "error-identification",
+      "topic": "Article",
+      "question": "The university opened new laboratory for students in the chemistry department.",
+      "choices": [
+        "university",
+        "opened new laboratory",
+        "students",
+        "chemistry department"
+      ],
+      "answer": 1,
+      "explanation": "A singular countable noun needs an article. The correct phrase is 'opened a new laboratory'."
+    },
+    {
+      "id": "S3-030",
+      "type": "error-identification",
+      "topic": "Adverb",
+      "question": "The speaker explained the complicated theory very clear during the seminar.",
+      "choices": [
+        "speaker",
+        "complicated theory",
+        "very clear",
+        "during the seminar"
+      ],
+      "answer": 2,
+      "explanation": "An adverb is needed to modify 'explained'. The correct form is 'very clearly'."
+    }
+  ]
+}

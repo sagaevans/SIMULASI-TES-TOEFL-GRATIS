@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "testName": "TOEFL ITP-like Practice",
+    "section": "reading",
+    "set": "set-2",
+    "version": "1.0.0",
+    "durationMinutes": 25,
+    "totalQuestions": 20
+  },
+  "passages": [
+    {
+      "id": "R2-PASSAGE-001",
+      "title": "The Role of Wetlands",
+      "passage": "Wetlands are among the most productive ecosystems on Earth. They include marshes, swamps, and bogs, and they provide important benefits to both wildlife and human communities. Many species of birds, fish, insects, and plants depend on wetlands for food, shelter, and reproduction. Wetlands also help control flooding by absorbing excess rainwater and slowly releasing it into rivers and streams. In addition, they can improve water quality because certain wetland plants and soils filter pollutants before the water reaches larger bodies of water. Despite these benefits, wetlands have often been drained or filled for agriculture, housing, and commercial development. In recent decades, however, scientists and policymakers have increasingly recognized the need to protect and restore these valuable environments.",
+      "questions": [
+        {
+          "id": "R2-001",
+          "type": "main-idea",
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "Wetlands provide important ecological benefits and should be protected.",
+            "Wetlands are useful only for commercial development.",
+            "Wetlands are found only in tropical regions.",
+            "Wetlands are dangerous because they increase flooding."
+          ],
+          "answer": 0,
+          "explanation": "The passage explains several benefits of wetlands and ends by emphasizing the need to protect and restore them."
+        },
+        {
+          "id": "R2-002",
+          "type": "detail",
+          "question": "According to the passage, wetlands help control flooding by",
+          "choices": [
+            "blocking all rivers from flowing",
+            "absorbing excess rainwater and releasing it slowly",
+            "increasing the speed of streams",
+            "removing all plants from riverbanks"
+          ],
+          "answer": 1,
+          "explanation": "The passage states that wetlands absorb excess rainwater and slowly release it into rivers and streams."
+        },
+        {
+          "id": "R2-003",
+          "type": "vocabulary",
+          "question": "The word 'productive' in the passage is closest in meaning to",
+          "choices": [
+            "dangerous",
+            "useful and able to support much life",
+            "dry and empty",
+            "recently created"
+          ],
+          "answer": 1,
+          "explanation": "In this context, productive means that wetlands support many living things and provide many ecological functions."
+        },
+        {
+          "id": "R2-004",
+          "type": "inference",
+          "question": "What can be inferred about the past treatment of wetlands?",
+          "choices": [
+            "People always understood their importance.",
+            "They were sometimes destroyed because their benefits were not fully recognized.",
+            "They were never used for agriculture.",
+            "They were protected by all governments."
+          ],
+          "answer": 1,
+          "explanation": "The passage says wetlands were often drained or filled, but more recently people have recognized the need to protect them."
+        },
+        {
+          "id": "R2-005",
+          "type": "purpose",
+          "question": "Why does the author mention birds, fish, insects, and plants?",
+          "choices": [
+            "To show that many living things depend on wetlands",
+            "To explain why wetlands should be drained",
+            "To compare wetlands with deserts",
+            "To argue that animals do not need shelter"
+          ],
+          "answer": 0,
+          "explanation": "These examples support the idea that wetlands provide food, shelter, and reproduction areas for many species."
+        }
+      ]
+    },
+    {
+      "id": "R2-PASSAGE-002",
+      "title": "The Printing Press and the Spread of Knowledge",
+      "passage": "Before the development of the printing press in Europe, books were copied by hand, a process that required considerable time and labor. As a result, books were expensive and relatively rare. The introduction of movable type changed this situation dramatically. Printers could produce many copies of a text more quickly and at a lower cost than scribes could. This made written materials available to a wider audience, including merchants, students, and scholars. The printing press also contributed to the spread of new ideas because scientific, religious, and political works could circulate more widely than before. Although literacy did not increase immediately for everyone, the availability of printed materials played an important role in the growth of education and public debate.",
+      "questions": [
+        {
+          "id": "R2-006",
+          "type": "main-idea",
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "The printing press made books more available and helped spread knowledge.",
+            "Hand-copied books were always cheaper than printed books.",
+            "The printing press was used only for religious texts.",
+            "Movable type prevented students from reading books."
+          ],
+          "answer": 0,
+          "explanation": "The passage focuses on how the printing press lowered the cost of books and helped spread written materials and ideas."
+        },
+        {
+          "id": "R2-007",
+          "type": "detail",
+          "question": "Before the printing press, books were expensive mainly because they",
+          "choices": [
+            "were printed in large factories",
+            "were copied by hand",
+            "were made only from metal",
+            "were not useful to scholars"
+          ],
+          "answer": 1,
+          "explanation": "The passage states that books were copied by hand, which required considerable time and labor."
+        },
+        {
+          "id": "R2-008",
+          "type": "vocabulary",
+          "question": "The word 'circulate' in the passage is closest in meaning to",
+          "choices": [
+            "move or spread from place to place",
+            "disappear completely",
+            "be hidden from readers",
+            "be copied incorrectly"
+          ],
+          "answer": 0,
+          "explanation": "In this context, circulate means that works could spread or move among more people and places."
+        },
+        {
+          "id": "R2-009",
+          "type": "inference",
+          "question": "What can be inferred about education after the introduction of the printing press?",
+          "choices": [
+            "It became easier for more people to access learning materials.",
+            "It immediately became available to every person.",
+            "It no longer required reading.",
+            "It was limited only to merchants."
+          ],
+          "answer": 0,
+          "explanation": "The passage says printed materials became available to a wider audience and played a role in the growth of education."
+        },
+        {
+          "id": "R2-010",
+          "type": "detail",
+          "question": "Which groups are mentioned as part of the wider audience for printed materials?",
+          "choices": [
+            "Farmers, sailors, and musicians",
+            "Merchants, students, and scholars",
+            "Kings, soldiers, and architects",
+            "Doctors, painters, and athletes"
+          ],
+          "answer": 1,
+          "explanation": "The passage specifically mentions merchants, students, and scholars as people who gained greater access to written materials."
+        }
+      ]
+    },
+    {
+      "id": "R2-PASSAGE-003",
+      "title": "Migration Patterns of Birds",
+      "passage": "Many bird species migrate seasonally, traveling long distances between breeding and wintering areas. Migration allows birds to take advantage of food supplies that are available only during certain times of the year. For example, some birds breed in northern regions during the summer, when insects are abundant and daylight hours are long. As temperatures fall and food becomes scarce, they travel south to warmer areas. Scientists believe that birds use several cues to navigate, including the position of the sun, the stars, Earth's magnetic field, and familiar geographic features. Although migration can be dangerous because of storms, predators, and habitat loss, it remains essential for the survival of many species.",
+      "questions": [
+        {
+          "id": "R2-011",
+          "type": "main-idea",
+          "question": "What is the passage mainly about?",
+          "choices": [
+            "Why and how many birds migrate seasonally",
+            "Why birds cannot survive in northern regions",
+            "How birds build nests in cities",
+            "How scientists train birds to fly south"
+          ],
+          "answer": 0,
+          "explanation": "The passage explains the reasons for bird migration, navigation cues, and some dangers of migration."
+        },
+        {
+          "id": "R2-012",
+          "type": "detail",
+          "question": "According to the passage, some birds breed in northern regions during summer because",
+          "choices": [
+            "there are fewer geographic features",
+            "insects are abundant and daylight hours are long",
+            "storms are more common there",
+            "food is unavailable in all other regions"
+          ],
+          "answer": 1,
+          "explanation": "The passage says some birds breed in northern regions during summer when insects are abundant and daylight hours are long."
+        },
+        {
+          "id": "R2-013",
+          "type": "vocabulary",
+          "question": "The word 'scarce' in the passage is closest in meaning to",
+          "choices": [
+            "difficult to find",
+            "very bright",
+            "easy to carry",
+            "recently discovered"
+          ],
+          "answer": 0,
+          "explanation": "Scarce means not enough or difficult to find. Here it refers to food becoming less available."
+        },
+        {
+          "id": "R2-014",
+          "type": "inference",
+          "question": "What can be inferred about migration?",
+          "choices": [
+            "It is risky but important for many birds.",
+            "It is unnecessary for all bird species.",
+            "It happens only when birds are young.",
+            "It prevents birds from finding food."
+          ],
+          "answer": 0,
+          "explanation": "The passage says migration can be dangerous but remains essential for the survival of many species."
+        },
+        {
+          "id": "R2-015",
+          "type": "detail",
+          "question": "Which of the following is NOT mentioned as a navigation cue for birds?",
+          "choices": [
+            "The stars",
+            "Earth's magnetic field",
+            "Ocean temperature",
+            "Familiar geographic features"
+          ],
+          "answer": 2,
+          "explanation": "The passage mentions the sun, stars, Earth's magnetic field, and geographic features, but not ocean temperature."
+        }
+      ]
+    },
+    {
+      "id": "R2-PASSAGE-004",
+      "title": "Community Colleges in Higher Education",
+      "passage": "Community colleges play an important role in higher education by providing accessible and affordable opportunities for students with different goals. Some students attend community colleges to complete the first two years of a bachelor's degree before transferring to a university. Others enroll in technical or vocational programs that prepare them for specific careers in fields such as nursing, information technology, or automotive repair. Community colleges often serve local populations and may offer flexible schedules for students who work or have family responsibilities. Because tuition is generally lower than at four-year institutions, these colleges can reduce financial barriers to education. However, students who plan to transfer must carefully choose courses that will be accepted by their future universities.",
+      "questions": [
+        {
+          "id": "R2-016",
+          "type": "main-idea",
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "Community colleges provide flexible and affordable paths for different educational goals.",
+            "Community colleges are only for students who want automotive repair jobs.",
+            "Universities do not accept any community college courses.",
+            "Community colleges are more expensive than four-year institutions."
+          ],
+          "answer": 0,
+          "explanation": "The passage describes several roles of community colleges, including transfer preparation, career training, flexibility, and lower cost."
+        },
+        {
+          "id": "R2-017",
+          "type": "detail",
+          "question": "Why do some students attend community colleges before transferring?",
+          "choices": [
+            "To complete the first two years of a bachelor's degree",
+            "To avoid taking any academic courses",
+            "To study only high school subjects",
+            "To become university professors immediately"
+          ],
+          "answer": 0,
+          "explanation": "The passage states that some students complete the first two years of a bachelor's degree before transferring to a university."
+        },
+        {
+          "id": "R2-018",
+          "type": "vocabulary",
+          "question": "The word 'accessible' in the passage is closest in meaning to",
+          "choices": [
+            "difficult to enter",
+            "easy to reach or use",
+            "limited to wealthy students",
+            "unrelated to education"
+          ],
+          "answer": 1,
+          "explanation": "Accessible means easy to reach, enter, or use. Here it means community colleges provide opportunities that are easier for many students to access."
+        },
+        {
+          "id": "R2-019",
+          "type": "inference",
+          "question": "What can be inferred about students who want to transfer to universities?",
+          "choices": [
+            "They should plan their courses carefully.",
+            "They do not need to take any courses.",
+            "They must study only vocational subjects.",
+            "They cannot receive any academic credit."
+          ],
+          "answer": 0,
+          "explanation": "The passage says transfer students must carefully choose courses that will be accepted by their future universities."
+        },
+        {
+          "id": "R2-020",
+          "type": "purpose",
+          "question": "Why does the author mention nursing, information technology, and automotive repair?",
+          "choices": [
+            "To give examples of career fields served by vocational programs",
+            "To argue that academic transfer programs are unnecessary",
+            "To show that community colleges offer only medical training",
+            "To explain why universities are less expensive"
+          ],
+          "answer": 0,
+          "explanation": "These are examples of specific career fields that technical or vocational programs may prepare students for."
+        }
+      ]
+    }
+  ]
+}

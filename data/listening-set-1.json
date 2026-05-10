@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "testName": "TOEFL ITP-like Practice",
+    "section": "listening",
+    "set": "set-1",
+    "version": "1.1.0",
+    "durationMinutes": 10,
+    "totalQuestions": 10
+  },
+  "items": [
+    {
+      "id": "L-AUDIO-001",
+      "type": "conversation",
+      "title": "Conversation about a research paper",
+      "ttsText": "Narrator. Listen to a conversation between a student and a professor. Student. Professor Adams, do you have a few minutes? I wanted to ask about the research assignment. Professor. Sure, come in. Are you having trouble finding sources? Student. Not exactly. I found several articles, but my topic still feels too broad. Professor. What topic did you choose? Student. I was going to write about the effects of technology on education. Professor. That is a good starting point, but it covers too many areas. You could narrow it down by focusing on one type of technology or one group of students. Student. So, maybe something like how online discussion boards affect participation in college classes? Professor. Yes, that would be much more manageable. You could compare students who participate in online discussions with those who only speak during regular class meetings. Student. That sounds better. Would it be okay if I changed my thesis today? Professor. Absolutely. Revising your thesis at this stage is a normal part of the research process. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L001",
+          "question": "Why does the student visit the professor?",
+          "choices": [
+            "To request extra time for an assignment",
+            "To ask about narrowing a research topic",
+            "To complain about an online class",
+            "To discuss a poor grade"
+          ],
+          "answer": 1,
+          "explanation": "The student says the topic feels too broad, so the professor helps narrow it."
+        },
+        {
+          "id": "L002",
+          "question": "What is the student's original topic?",
+          "choices": [
+            "The cost of college education",
+            "The history of classroom technology",
+            "The effects of technology on education",
+            "The difference between online and offline libraries"
+          ],
+          "answer": 2,
+          "explanation": "The student says the original topic is the effects of technology on education."
+        },
+        {
+          "id": "L003",
+          "question": "What does the professor suggest?",
+          "choices": [
+            "Choosing a more specific topic",
+            "Using fewer academic articles",
+            "Changing to a different course",
+            "Interviewing another professor"
+          ],
+          "answer": 0,
+          "explanation": "The professor says the topic covers too many areas and should be narrowed down."
+        },
+        {
+          "id": "L004",
+          "question": "What specific topic does the student mention later?",
+          "choices": [
+            "How online discussion boards affect participation",
+            "How students choose their professors",
+            "Why technology makes research unnecessary",
+            "Why college classes should be shorter"
+          ],
+          "answer": 0,
+          "explanation": "The student suggests focusing on how online discussion boards affect participation in college classes."
+        }
+      ]
+    },
+    {
+      "id": "L-AUDIO-002",
+      "type": "conversation",
+      "title": "Conversation about a library book",
+      "ttsText": "Narrator. Listen to a conversation between a student and a librarian. Student. Excuse me, I am looking for a book called Introduction to Environmental Policy, but I cannot find it on the shelf. Librarian. Did you check the online catalog first? Student. Yes. It says the book is available, and the call number led me to this section. Librarian. Sometimes books are placed on the reshelving cart before they return to the shelf. Let me check. Student. Thank you. I need it for a paper that is due next week. Librarian. Here it is. Someone returned it this morning. You can borrow it for three weeks. Student. Great. Is it possible to renew it if I need more time? Librarian. Yes, as long as no one else requests it. You can renew it online through your library account. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L005",
+          "question": "What problem does the student have?",
+          "choices": [
+            "He cannot access his online account",
+            "He cannot find a book on the shelf",
+            "He forgot the title of his paper",
+            "He returned a book late"
+          ],
+          "answer": 1,
+          "explanation": "The student says he is looking for a book but cannot find it on the shelf."
+        },
+        {
+          "id": "L006",
+          "question": "Where was the book found?",
+          "choices": [
+            "On the reshelving cart",
+            "In the professor's office",
+            "At another campus library",
+            "Inside the student's backpack"
+          ],
+          "answer": 0,
+          "explanation": "The librarian explains that books are sometimes on the reshelving cart, and then finds the book there."
+        },
+        {
+          "id": "L007",
+          "question": "How long can the student borrow the book?",
+          "choices": [
+            "One week",
+            "Two weeks",
+            "Three weeks",
+            "One semester"
+          ],
+          "answer": 2,
+          "explanation": "The librarian says the student can borrow it for three weeks."
+        }
+      ]
+    },
+    {
+      "id": "L-AUDIO-003",
+      "type": "talk",
+      "title": "Short talk about campus transportation",
+      "ttsText": "Narrator. Listen to part of an announcement about campus transportation. Speaker. Starting next Monday, the university will introduce a new shuttle schedule. The goal is to reduce waiting times during the busiest hours of the day. Buses will now arrive every ten minutes between seven thirty and nine thirty in the morning, and again between four and six in the afternoon. During the middle of the day, buses will continue to run every twenty minutes. Students are encouraged to check the transportation website because some bus stops will also be moved temporarily due to construction near the science building. The university expects the construction to last about six weeks. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L008",
+          "question": "What is the main purpose of the announcement?",
+          "choices": [
+            "To explain a new shuttle schedule",
+            "To cancel all campus transportation",
+            "To announce a new science course",
+            "To ask students to drive to campus"
+          ],
+          "answer": 0,
+          "explanation": "The speaker announces a new shuttle schedule that starts next Monday."
+        },
+        {
+          "id": "L009",
+          "question": "How often will buses arrive during the busiest hours?",
+          "choices": [
+            "Every five minutes",
+            "Every ten minutes",
+            "Every twenty minutes",
+            "Every thirty minutes"
+          ],
+          "answer": 1,
+          "explanation": "The announcement says buses will arrive every ten minutes during peak hours."
+        },
+        {
+          "id": "L010",
+          "question": "Why will some bus stops be moved temporarily?",
+          "choices": [
+            "Because of construction near the science building",
+            "Because students requested fewer stops",
+            "Because the library is closed",
+            "Because the buses are being replaced"
+          ],
+          "answer": 0,
+          "explanation": "The speaker says some bus stops will be moved due to construction near the science building."
+        }
+      ]
+    }
+  ]
+}

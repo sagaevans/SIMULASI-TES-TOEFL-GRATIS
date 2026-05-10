@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Simulasi Tes TOEFL Online GRATIS</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="header-badge">Academic English Preparation</div>
+
+      <h1 class="app-title">
+        SIMULASI TES TOEFL<span>-</span>GRATIS
+      </h1>
+
+      <p class="app-subtitle">
+        Unofficial academic English practice test — sharpen your skills, section by section.
+      </p>
+
+      <span class="app-author">Crafted by Nas</span>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="intro-card">
+      <div class="intro-left">
+        <h2>Choose Practice Mode</h2>
+        <p>
+          Practice TOEFL ITP-like Listening, Structure, and Reading questions.
+          Choose a single section for focused practice or launch a full test simulation.
+        </p>
+      </div>
+
+      <div class="section-buttons">
+        <button id="btn-nav-listening" onclick="handleMainNavClick('listening')">
+          🎧 Listening
+        </button>
+
+        <button id="btn-nav-structure" onclick="handleMainNavClick('structure')">
+          ✍️ Structure
+        </button>
+
+        <button id="btn-nav-reading" onclick="handleMainNavClick('reading')">
+          📖 Reading
+        </button>
+
+        <button id="btn-nav-fulltest" class="btn-full-test" onclick="handleMainNavClick('fulltest')">
+          🚀 Start Full Test
+        </button>
+      </div>
+    </section>
+
+    <div class="home-three-column">
+
+      <section class="test-info color-block-sets">
+        <h2>Available Practice Sets</h2>
+
+        <div class="vertical-info-list">
+
+          <div class="info-box">
+            <h3>Set 1</h3>
+            <p><strong>Beginner Quick Practice</strong></p>
+
+            <div class="stat-row">
+              <span class="stat-pill">10 Listening</span>
+              <span class="stat-pill">10 Structure</span>
+              <span class="stat-pill">10 Reading</span>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <h3>Set 2</h3>
+            <p><strong>Medium Practice</strong></p>
+
+            <div class="stat-row">
+              <span class="stat-pill">20 Listening</span>
+              <span class="stat-pill">20 Structure</span>
+              <span class="stat-pill">20 Reading</span>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <h3>Set 3</h3>
+            <p><strong>Advanced Long Practice</strong></p>
+
+            <div class="stat-row">
+              <span class="stat-pill">30 Listening</span>
+              <span class="stat-pill">30 Structure</span>
+              <span class="stat-pill">30 Reading</span>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <div class="home-center-column">
+
+        <section class="test-info color-block-reference">
+          <h2>TOEFL ITP-like Format Reference</h2>
+
+          <div class="vertical-info-list">
+
+            <div class="info-box">
+              <h3>🎧 Listening</h3>
+              <p>50 questions · 35 minutes</p>
+              <p>
+                Short conversations, longer conversations, and short academic talks.
+              </p>
+            </div>
+
+            <div class="info-box">
+              <h3>✍️ Structure</h3>
+              <p>40 questions · 25 minutes</p>
+              <p>
+                Sentence completion and error identification.
+              </p>
+            </div>
+
+            <div class="info-box">
+              <h3>📖 Reading</h3>
+              <p>50 questions · 55 minutes</p>
+              <p>
+                Academic passages with main idea, detail, inference, vocabulary, and reference questions.
+              </p>
+            </div>
+
+          </div>
+        </section>
+
+        <section id="practice-area" class="practice-area color-block-practice">
+          <h2>Practice Area</h2>
+
+          <p>
+            Choose <strong>Listening</strong>, <strong>Structure</strong>,
+            <strong>Reading</strong>, or <strong>Start Full Test</strong> above.
+          </p>
+
+          <p class="practice-note">
+            For section practice, select Set 1, 2, or 3.
+            For full simulation, choose Set 0 Mixed or a regular set.
+          </p>
+        </section>
+
+      </div>
+
+      <section class="test-info color-block-fulltest">
+        <h2>Full Test Mode</h2>
+
+        <div class="vertical-info-list">
+
+          <div class="info-box">
+            <h3>Set 0 — Mixed Full Test</h3>
+            <p>
+              Random full TOEFL ITP-like simulation from all active practice sets.
+            </p>
+
+            <div class="stat-row">
+              <span class="stat-pill">50 L</span>
+              <span class="stat-pill">40 S</span>
+              <span class="stat-pill">50 R</span>
+            </div>
+          </div>
+
+          <div class="info-box">
+            <h3>Regular Full Test</h3>
+            <p>
+              Start a full test using Set 1, Set 2, or Set 3 only.
+            </p>
+
+            <p class="flow-text">
+              <strong>Flow:</strong> Listening → Structure → Reading → Final Result
+            </p>
+          </div>
+
+          <div class="info-box">
+            <h3>Estimated Score</h3>
+            <p>
+              Final results show total correct, accuracy, section scores,
+              and an estimated TOEFL ITP-like score.
+            </p>
+
+            <p class="muted-note">
+              For practice purposes only.
+            </p>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>
+      This project is not affiliated with, endorsed by, or sponsored by ETS.
+      Scores are estimates for practice only.
+    </p>
+
+    <p class="footer-contact">
+      Contact:
+      <a href="mailto:nasotp1@gmail.com">nasotp1@gmail.com</a>
+      &nbsp;·&nbsp;
+      WhatsApp:
+      <a href="https://wa.me/6285692648378" target="_blank">085692648378</a>
+    </p>
+  </footer>
+
+  <script>
+    function scrollToPracticeArea() {
+      const practiceArea = document.getElementById("practice-area");
+
+      if (!practiceArea) {
+        return;
+      }
+
+      setTimeout(function () {
+        practiceArea.scrollIntoView({
+          behavior: "smooth",
+          block: "start"
+        });
+      }, 150);
+    }
+
+    function handleMainNavClick(mode) {
+      if (mode === "fulltest") {
+        loadFullTestIntro();
+      } else {
+        loadSection(mode);
+      }
+
+      scrollToPracticeArea();
+    }
+  </script>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

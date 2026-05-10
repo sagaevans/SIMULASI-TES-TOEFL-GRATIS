@@ -1,0 +1,420 @@
+{
+  "meta": {
+    "testName": "TOEFL ITP-like Practice",
+    "section": "listening",
+    "set": "set-3",
+    "version": "1.0.0",
+    "durationMinutes": 25,
+    "totalQuestions": 30
+  },
+  "items": [
+    {
+      "id": "L3-AUDIO-001",
+      "type": "conversation",
+      "title": "Conversation about a history presentation",
+      "ttsText": "Narrator. Listen to a conversation between a student and a professor. Student. Professor Martin, do you have a moment? I wanted to ask about my history presentation. Professor. Of course. Is this about your topic on early trade routes? Student. Yes. I have collected a lot of information, but I am worried that my presentation is too broad. Professor. That is a common problem. Which part of the topic interests you most? Student. I am most interested in how trade routes helped spread ideas, not just goods. Professor. That is a stronger focus. You could organize your presentation around three examples: religious ideas, scientific knowledge, and artistic styles. Student. That sounds clearer. Should I still include a map? Professor. Definitely. A map will help your classmates understand how the regions were connected. Student. Great. I will revise my outline tonight. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L3-001",
+          "question": "Why does the student visit the professor?",
+          "choices": [
+            "To ask for advice about a presentation",
+            "To request a new history textbook",
+            "To complain about a classmate",
+            "To change his exam date"
+          ],
+          "answer": 0,
+          "explanation": "The student asks the professor for help with his history presentation."
+        },
+        {
+          "id": "L3-002",
+          "question": "What is the student's original concern?",
+          "choices": [
+            "His topic may be too broad",
+            "He has not chosen a topic",
+            "He cannot find the classroom",
+            "His map is too small"
+          ],
+          "answer": 0,
+          "explanation": "The student says he is worried that his presentation is too broad."
+        },
+        {
+          "id": "L3-003",
+          "question": "What focus does the professor suggest?",
+          "choices": [
+            "How trade routes spread ideas",
+            "How roads were constructed",
+            "How merchants calculated prices",
+            "How ancient ships were repaired"
+          ],
+          "answer": 0,
+          "explanation": "The professor agrees that focusing on how trade routes spread ideas is stronger."
+        },
+        {
+          "id": "L3-004",
+          "question": "What examples does the professor mention?",
+          "choices": [
+            "Religious ideas, scientific knowledge, and artistic styles",
+            "Coins, ships, and city walls",
+            "Weather, farming, and animal migration",
+            "Libraries, schools, and museums"
+          ],
+          "answer": 0,
+          "explanation": "The professor suggests organizing the presentation around those three examples."
+        },
+        {
+          "id": "L3-005",
+          "question": "Why should the student include a map?",
+          "choices": [
+            "To show how regions were connected",
+            "To replace the entire presentation",
+            "To show the professor's office location",
+            "To list all required readings"
+          ],
+          "answer": 0,
+          "explanation": "The professor says a map will help classmates understand the connections between regions."
+        }
+      ]
+    },
+    {
+      "id": "L3-AUDIO-002",
+      "type": "conversation",
+      "title": "Conversation about a campus job",
+      "ttsText": "Narrator. Listen to a conversation between a student and an employee at the campus employment office. Student. Hello. I saw an announcement about student assistant positions in the computer lab. Are those jobs still available? Employee. Yes, but only two positions are left. Have you worked in a computer lab before? Student. Not officially, but I helped students use software in my high school media center. Employee. That experience may be useful. The main duties here are checking students in, helping with printing problems, and reporting equipment issues. Student. What hours are available? Employee. We need someone on Monday and Wednesday evenings from six to nine. Student. That works with my class schedule. Do I need to submit a resume? Employee. Yes. Submit a resume and a short application form by Friday afternoon. Interviews will be held next week. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L3-006",
+          "question": "What is the student interested in?",
+          "choices": [
+            "A student assistant job in the computer lab",
+            "A new computer science course",
+            "A discount on printing services",
+            "A software training workshop"
+          ],
+          "answer": 0,
+          "explanation": "The student asks about student assistant positions in the computer lab."
+        },
+        {
+          "id": "L3-007",
+          "question": "What experience does the student mention?",
+          "choices": [
+            "Helping students use software in a media center",
+            "Repairing computers professionally",
+            "Teaching a university course",
+            "Managing the employment office"
+          ],
+          "answer": 0,
+          "explanation": "The student helped students use software in his high school media center."
+        },
+        {
+          "id": "L3-008",
+          "question": "Which duty is mentioned for the job?",
+          "choices": [
+            "Helping with printing problems",
+            "Designing new software",
+            "Cleaning all classrooms",
+            "Teaching evening lectures"
+          ],
+          "answer": 0,
+          "explanation": "The employee says the job includes helping students with printing problems."
+        },
+        {
+          "id": "L3-009",
+          "question": "When are the available work hours?",
+          "choices": [
+            "Monday and Wednesday evenings",
+            "Tuesday and Thursday mornings",
+            "Every weekday afternoon",
+            "Saturday and Sunday nights"
+          ],
+          "answer": 0,
+          "explanation": "The employee says the lab needs someone Monday and Wednesday evenings from six to nine."
+        },
+        {
+          "id": "L3-010",
+          "question": "What must the student submit by Friday?",
+          "choices": [
+            "A resume and application form",
+            "A final exam schedule",
+            "A letter from his professor",
+            "A computer repair report"
+          ],
+          "answer": 0,
+          "explanation": "The employee tells the student to submit a resume and a short application form by Friday afternoon."
+        }
+      ]
+    },
+    {
+      "id": "L3-AUDIO-003",
+      "type": "conversation",
+      "title": "Conversation about a missing notebook",
+      "ttsText": "Narrator. Listen to a conversation between two students. Woman. Hey, Daniel, did you see a blue notebook in the study room yesterday? Man. A blue notebook? I remember seeing one on the table near the window. Was it yours? Woman. Yes. It has all my chemistry notes in it, and I have a quiz tomorrow. Man. I left the study room around five, and the notebook was still there. Did you check the lost and found desk? Woman. Not yet. I was hoping someone from our study group picked it up. Man. I can text the group, but you should also check the library desk. Sometimes the staff collects items at the end of the day. Woman. Good idea. I will go there now. Man. If you cannot find it, I can lend you my notes from last week. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L3-011",
+          "question": "What is the woman's problem?",
+          "choices": [
+            "She lost her chemistry notebook",
+            "She missed a chemistry quiz",
+            "She cannot enter the library",
+            "She forgot the study group time"
+          ],
+          "answer": 0,
+          "explanation": "The woman says her blue notebook with chemistry notes is missing."
+        },
+        {
+          "id": "L3-012",
+          "question": "Where did the man see the notebook?",
+          "choices": [
+            "On a table near the window",
+            "Inside the chemistry laboratory",
+            "At the lost and found desk",
+            "In the cafeteria"
+          ],
+          "answer": 0,
+          "explanation": "The man says he saw it on the table near the window."
+        },
+        {
+          "id": "L3-013",
+          "question": "Why is the notebook important to the woman?",
+          "choices": [
+            "It contains notes for a quiz",
+            "It has her job application",
+            "It belongs to her professor",
+            "It contains library receipts"
+          ],
+          "answer": 0,
+          "explanation": "The woman says it has all her chemistry notes and she has a quiz tomorrow."
+        },
+        {
+          "id": "L3-014",
+          "question": "What does the man suggest first?",
+          "choices": [
+            "Checking the lost and found desk",
+            "Buying a new textbook",
+            "Skipping the quiz",
+            "Calling the chemistry department"
+          ],
+          "answer": 0,
+          "explanation": "The man asks whether she checked the lost and found desk."
+        },
+        {
+          "id": "L3-015",
+          "question": "What does the man offer to do if she cannot find it?",
+          "choices": [
+            "Lend her his notes",
+            "Take the quiz for her",
+            "Replace the notebook",
+            "Cancel the study group"
+          ],
+          "answer": 0,
+          "explanation": "He says he can lend her his notes from last week if she cannot find the notebook."
+        }
+      ]
+    },
+    {
+      "id": "L3-AUDIO-004",
+      "type": "talk",
+      "title": "Academic talk about volcanic soil",
+      "ttsText": "Narrator. Listen to part of a lecture in an earth science class. Professor. Although volcanic eruptions can be destructive, volcanic activity can also create very fertile soil over time. When volcanic rock breaks down, it releases minerals such as potassium, phosphorus, and iron. These minerals can support plant growth and make the soil valuable for agriculture. This process does not happen immediately after an eruption. Fresh volcanic material may be too hot, too rocky, or too unstable for plants. However, weathering gradually breaks the material into smaller particles, and organic matter begins to accumulate. In some regions, farmers have used volcanic soils to grow crops such as grapes, coffee, and vegetables. The fertility of volcanic soil helps explain why people sometimes continue to live near volcanoes despite the risks. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L3-016",
+          "question": "What is the lecture mainly about?",
+          "choices": [
+            "How volcanic activity can create fertile soil",
+            "How farmers predict volcanic eruptions",
+            "Why all volcanoes are inactive",
+            "Why plants cannot grow near mountains"
+          ],
+          "answer": 0,
+          "explanation": "The professor explains how volcanic rock can break down and create fertile soil."
+        },
+        {
+          "id": "L3-017",
+          "question": "Which minerals are mentioned in the lecture?",
+          "choices": [
+            "Potassium, phosphorus, and iron",
+            "Gold, silver, and copper",
+            "Salt, calcium, and oxygen",
+            "Carbon, helium, and nitrogen"
+          ],
+          "answer": 0,
+          "explanation": "The professor mentions potassium, phosphorus, and iron."
+        },
+        {
+          "id": "L3-018",
+          "question": "Why is fresh volcanic material not immediately good for plants?",
+          "choices": [
+            "It may be too hot, rocky, or unstable",
+            "It contains too much water",
+            "It has already become organic matter",
+            "It prevents all minerals from forming"
+          ],
+          "answer": 0,
+          "explanation": "The professor says fresh volcanic material may be too hot, too rocky, or too unstable."
+        },
+        {
+          "id": "L3-019",
+          "question": "What process breaks volcanic material into smaller particles?",
+          "choices": [
+            "Weathering",
+            "Migration",
+            "Translation",
+            "Condensation"
+          ],
+          "answer": 0,
+          "explanation": "The professor says weathering gradually breaks the material into smaller particles."
+        },
+        {
+          "id": "L3-020",
+          "question": "What does the professor imply about people living near volcanoes?",
+          "choices": [
+            "They may stay because the soil can be useful for farming",
+            "They never understand the risks",
+            "They cannot grow any crops",
+            "They live there only because of tourism"
+          ],
+          "answer": 0,
+          "explanation": "The fertility of volcanic soil helps explain why people sometimes live near volcanoes despite the risks."
+        }
+      ]
+    },
+    {
+      "id": "L3-AUDIO-005",
+      "type": "talk",
+      "title": "Academic talk about animal communication",
+      "ttsText": "Narrator. Listen to part of a lecture in a biology class. Professor. Animals communicate in many different ways, and their signals can serve several purposes. Some signals help animals attract mates, while others warn members of a group about danger. Birds, for example, may use songs to defend territory or attract partners. Certain mammals use scent markings to show that an area is occupied. Insects may communicate through movement. Honeybees perform a type of dance that can indicate the direction and distance of a food source. Communication signals are not always sounds; they may also involve color, posture, chemicals, or motion. Studying these signals helps scientists understand how animals survive, reproduce, and interact with their environments. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L3-021",
+          "question": "What is the lecture mainly about?",
+          "choices": [
+            "Different ways animals communicate",
+            "How animals build shelters",
+            "Why birds stop singing",
+            "How insects sleep during winter"
+          ],
+          "answer": 0,
+          "explanation": "The professor discusses various types of animal communication signals."
+        },
+        {
+          "id": "L3-022",
+          "question": "According to the professor, why may birds use songs?",
+          "choices": [
+            "To defend territory or attract partners",
+            "To find underground water",
+            "To build stronger nests",
+            "To mark food with chemicals"
+          ],
+          "answer": 0,
+          "explanation": "The professor says birds may use songs to defend territory or attract partners."
+        },
+        {
+          "id": "L3-023",
+          "question": "What do some mammals use scent markings for?",
+          "choices": [
+            "To show that an area is occupied",
+            "To teach insects to dance",
+            "To change the color of their fur",
+            "To hide from their own group"
+          ],
+          "answer": 0,
+          "explanation": "The professor says certain mammals use scent markings to show that an area is occupied."
+        },
+        {
+          "id": "L3-024",
+          "question": "What information can a honeybee dance communicate?",
+          "choices": [
+            "The direction and distance of a food source",
+            "The age of a tree",
+            "The temperature of a river",
+            "The size of a bird's nest"
+          ],
+          "answer": 0,
+          "explanation": "The professor explains that honeybee dances can indicate direction and distance to food."
+        },
+        {
+          "id": "L3-025",
+          "question": "What does the professor emphasize about communication signals?",
+          "choices": [
+            "They can involve more than sound",
+            "They are used only by birds",
+            "They are always accidental",
+            "They never help survival"
+          ],
+          "answer": 0,
+          "explanation": "The professor says signals may involve color, posture, chemicals, or motion, not only sounds."
+        }
+      ]
+    },
+    {
+      "id": "L3-AUDIO-006",
+      "type": "talk",
+      "title": "Academic talk about the history of maps",
+      "ttsText": "Narrator. Listen to part of a lecture in a geography class. Professor. Maps have been used for thousands of years to represent space, movement, and relationships between places. Early maps were often created for practical purposes, such as marking trade routes, showing property boundaries, or helping travelers find water sources. Over time, mapmaking became more accurate as explorers, sailors, and scientists developed better methods for measuring distance and direction. The invention of printing allowed maps to be copied and distributed more widely. Later, aerial photography and satellite technology changed mapmaking again by providing detailed views of Earth's surface. Today, digital maps can be updated quickly and combined with information about traffic, weather, population, and land use. Although map technology has changed greatly, maps continue to help people understand where things are and how places are connected. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L3-026",
+          "question": "What is the lecture mainly about?",
+          "choices": [
+            "The development and continuing importance of maps",
+            "The history of ocean animals",
+            "Why printed books replaced maps",
+            "How weather is predicted without technology"
+          ],
+          "answer": 0,
+          "explanation": "The professor describes how maps have developed and why they remain useful."
+        },
+        {
+          "id": "L3-027",
+          "question": "What was one practical purpose of early maps?",
+          "choices": [
+            "Marking trade routes",
+            "Recording musical performances",
+            "Teaching grammar",
+            "Measuring student attendance"
+          ],
+          "answer": 0,
+          "explanation": "The professor says early maps were used for marking trade routes, property boundaries, or water sources."
+        },
+        {
+          "id": "L3-028",
+          "question": "What allowed maps to be copied and distributed more widely?",
+          "choices": [
+            "The invention of printing",
+            "The discovery of volcanic soil",
+            "The development of honeybee dances",
+            "The use of handwritten exams"
+          ],
+          "answer": 0,
+          "explanation": "The professor says printing allowed maps to be copied and distributed more widely."
+        },
+        {
+          "id": "L3-029",
+          "question": "How did satellite technology affect mapmaking?",
+          "choices": [
+            "It provided detailed views of Earth's surface",
+            "It made all maps unnecessary",
+            "It prevented people from measuring distance",
+            "It was used only for ancient property boundaries"
+          ],
+          "answer": 0,
+          "explanation": "The professor says aerial photography and satellite technology provided detailed views of Earth's surface."
+        },
+        {
+          "id": "L3-030",
+          "question": "What does the professor imply about modern digital maps?",
+          "choices": [
+            "They can combine many kinds of information",
+            "They cannot be updated",
+            "They are less useful than all early maps",
+            "They show only trade routes"
+          ],
+          "answer": 0,
+          "explanation": "The professor says digital maps can combine information about traffic, weather, population, and land use."
+        }
+      ]
+    }
+  ]
+}

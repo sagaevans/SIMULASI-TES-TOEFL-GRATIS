@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "testName": "TOEFL ITP-like Practice",
+    "section": "structure",
+    "set": "set-2",
+    "version": "1.0.0",
+    "durationMinutes": 15,
+    "totalQuestions": 20
+  },
+  "items": [
+    {
+      "id": "S2-001",
+      "type": "sentence-completion",
+      "topic": "Subject-verb agreement",
+      "question": "The results of the recent survey _____ that most students prefer online registration.",
+      "choices": [
+        "indicates",
+        "indicate",
+        "indicating",
+        "was indicated"
+      ],
+      "answer": 1,
+      "explanation": "The subject is 'results', which is plural, so the plural verb 'indicate' is correct."
+    },
+    {
+      "id": "S2-002",
+      "type": "sentence-completion",
+      "topic": "Passive voice",
+      "question": "The ancient manuscript _____ by researchers during an excavation near the old temple.",
+      "choices": [
+        "discovered",
+        "was discovered",
+        "discovering",
+        "has discovering"
+      ],
+      "answer": 1,
+      "explanation": "The sentence needs passive voice because the manuscript received the action. The correct form is 'was discovered'."
+    },
+    {
+      "id": "S2-003",
+      "type": "sentence-completion",
+      "topic": "Noun clause",
+      "question": "The professor explained _____ the experiment had failed.",
+      "choices": [
+        "why",
+        "because",
+        "due to",
+        "reason"
+      ],
+      "answer": 0,
+      "explanation": "'Why' introduces a noun clause: 'why the experiment had failed'."
+    },
+    {
+      "id": "S2-004",
+      "type": "sentence-completion",
+      "topic": "Parallel structure",
+      "question": "The workshop helps students improve pronunciation, develop confidence, and _____ academic vocabulary.",
+      "choices": [
+        "expanding",
+        "expansion of",
+        "expand",
+        "to expanding"
+      ],
+      "answer": 2,
+      "explanation": "The verbs must be parallel: improve, develop, and expand."
+    },
+    {
+      "id": "S2-005",
+      "type": "sentence-completion",
+      "topic": "Adjective clause",
+      "question": "The scientist _____ article was published last month will speak at the seminar.",
+      "choices": [
+        "who",
+        "whom",
+        "whose",
+        "which"
+      ],
+      "answer": 2,
+      "explanation": "'Whose' shows possession: the scientist whose article was published."
+    },
+    {
+      "id": "S2-006",
+      "type": "sentence-completion",
+      "topic": "Comparative structure",
+      "question": "This year's report is more detailed _____ the report submitted last year.",
+      "choices": [
+        "as",
+        "than",
+        "to",
+        "from"
+      ],
+      "answer": 1,
+      "explanation": "Comparative forms such as 'more detailed' are followed by 'than'."
+    },
+    {
+      "id": "S2-007",
+      "type": "sentence-completion",
+      "topic": "Gerund after preposition",
+      "question": "The students were interested in _____ more about renewable energy sources.",
+      "choices": [
+        "learn",
+        "learned",
+        "learning",
+        "to learn"
+      ],
+      "answer": 2,
+      "explanation": "After a preposition such as 'in', a gerund is used. The correct answer is 'learning'."
+    },
+    {
+      "id": "S2-008",
+      "type": "sentence-completion",
+      "topic": "Reduced adjective clause",
+      "question": "The books _____ on the top shelf are reserved for graduate students.",
+      "choices": [
+        "placing",
+        "placed",
+        "place",
+        "are placing"
+      ],
+      "answer": 1,
+      "explanation": "'Placed on the top shelf' is a reduced adjective clause meaning 'that are placed on the top shelf'."
+    },
+    {
+      "id": "S2-009",
+      "type": "sentence-completion",
+      "topic": "Inversion",
+      "question": "Rarely _____ such a detailed analysis of the economic data.",
+      "choices": [
+        "the committee has prepared",
+        "has the committee prepared",
+        "the committee prepared",
+        "prepared the committee has"
+      ],
+      "answer": 1,
+      "explanation": "After a negative adverb such as 'Rarely' at the beginning of a sentence, inversion is required: 'has the committee prepared'."
+    },
+    {
+      "id": "S2-010",
+      "type": "sentence-completion",
+      "topic": "Adverb clause",
+      "question": "_____ the weather was severe, the field researchers continued collecting data.",
+      "choices": [
+        "Although",
+        "Because of",
+        "Despite",
+        "However"
+      ],
+      "answer": 0,
+      "explanation": "'Although' introduces a complete adverb clause: 'Although the weather was severe'."
+    },
+    {
+      "id": "S2-011",
+      "type": "error-identification",
+      "topic": "Subject-verb agreement",
+      "question": "The collection of rare books are stored in a special room with controlled temperature.",
+      "choices": [
+        "The collection",
+        "rare books",
+        "are stored",
+        "controlled temperature"
+      ],
+      "answer": 2,
+      "explanation": "The subject is 'collection', which is singular. The correct verb phrase is 'is stored'."
+    },
+    {
+      "id": "S2-012",
+      "type": "error-identification",
+      "topic": "Word form",
+      "question": "The committee reached a decide after reviewing all of the applications.",
+      "choices": [
+        "reached",
+        "a decide",
+        "reviewing",
+        "applications"
+      ],
+      "answer": 1,
+      "explanation": "The noun form is 'decision', not 'decide'. The correct phrase is 'reached a decision'."
+    },
+    {
+      "id": "S2-013",
+      "type": "error-identification",
+      "topic": "Preposition",
+      "question": "Many students depend of public transportation to travel to campus every day.",
+      "choices": [
+        "Many students",
+        "depend of",
+        "to travel",
+        "every day"
+      ],
+      "answer": 1,
+      "explanation": "The correct phrase is 'depend on', not 'depend of'."
+    },
+    {
+      "id": "S2-014",
+      "type": "error-identification",
+      "topic": "Verb tense",
+      "question": "By the time the lecture began, most students already find their seats.",
+      "choices": [
+        "By the time",
+        "began",
+        "already find",
+        "their seats"
+      ],
+      "answer": 2,
+      "explanation": "The past perfect is needed: 'had already found their seats'."
+    },
+    {
+      "id": "S2-015",
+      "type": "error-identification",
+      "topic": "Conjunction",
+      "question": "Because the assignment was difficult, so the instructor gave the class more time.",
+      "choices": [
+        "Because",
+        "was difficult",
+        "so",
+        "more time"
+      ],
+      "answer": 2,
+      "explanation": "Do not use 'because' and 'so' together in this structure. Remove 'so'."
+    },
+    {
+      "id": "S2-016",
+      "type": "error-identification",
+      "topic": "Past participle",
+      "question": "The equipment was repair by a technician from the engineering department.",
+      "choices": [
+        "equipment",
+        "was repair",
+        "technician",
+        "engineering department"
+      ],
+      "answer": 1,
+      "explanation": "Passive voice requires be + past participle. The correct form is 'was repaired'."
+    },
+    {
+      "id": "S2-017",
+      "type": "error-identification",
+      "topic": "Pronoun agreement",
+      "question": "Each student must submit their application before the end of the month.",
+      "choices": [
+        "Each student",
+        "their application",
+        "before",
+        "the end"
+      ],
+      "answer": 1,
+      "explanation": "In formal grammar, 'each student' is singular, so the traditional form is 'his or her application'."
+    },
+    {
+      "id": "S2-018",
+      "type": "error-identification",
+      "topic": "Adjective vs adverb",
+      "question": "The laboratory assistant handled the fragile samples careful during the experiment.",
+      "choices": [
+        "laboratory assistant",
+        "fragile samples",
+        "careful",
+        "during the experiment"
+      ],
+      "answer": 2,
+      "explanation": "An adverb is needed to modify the verb 'handled'. The correct word is 'carefully'."
+    },
+    {
+      "id": "S2-019",
+      "type": "error-identification",
+      "topic": "Infinitive structure",
+      "question": "The purpose of the orientation program is helping new students understand campus policies.",
+      "choices": [
+        "purpose of",
+        "orientation program",
+        "is helping",
+        "campus policies"
+      ],
+      "answer": 2,
+      "explanation": "After 'the purpose is', an infinitive is commonly used: 'is to help'."
+    },
+    {
+      "id": "S2-020",
+      "type": "error-identification",
+      "topic": "Countable noun",
+      "question": "The researcher collected several information from interviews with local residents.",
+      "choices": [
+        "researcher",
+        "several information",
+        "interviews with",
+        "local residents"
+      ],
+      "answer": 1,
+      "explanation": "'Information' is uncountable, so it should not be used with 'several'. Use 'several pieces of information' or 'some information'."
+    }
+  ]
+}

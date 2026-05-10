@@ -1,0 +1,444 @@
+{
+  "meta": {
+    "testName": "TOEFL ITP-like Practice",
+    "section": "reading",
+    "set": "set-3",
+    "version": "1.0.0",
+    "durationMinutes": 35,
+    "totalQuestions": 30
+  },
+  "passages": [
+    {
+      "id": "R3-PASSAGE-001",
+      "title": "The Growth of Urban Agriculture",
+      "passage": "Urban agriculture has become increasingly popular in many cities around the world. It includes activities such as rooftop gardening, community gardens, and small-scale food production in vacant lots. Supporters argue that urban agriculture can improve access to fresh produce, strengthen neighborhood relationships, and make unused land more productive. In some cities, schools and community centers have also used gardens as educational spaces where students learn about nutrition, biology, and environmental responsibility. However, urban agriculture also faces challenges. Soil in older urban areas may contain pollutants, water access can be limited, and local regulations may restrict how land can be used. For these reasons, successful urban agriculture projects often require careful planning and cooperation among residents, local governments, and environmental experts.",
+      "questions": [
+        {
+          "id": "R3-001",
+          "type": "main-idea",
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "Urban agriculture can provide benefits but requires careful planning.",
+            "Urban agriculture is impossible in large cities.",
+            "Community gardens are used only by environmental experts.",
+            "Cities should stop all small-scale food production."
+          ],
+          "answer": 0,
+          "explanation": "The passage explains the benefits of urban agriculture and also discusses challenges that require planning."
+        },
+        {
+          "id": "R3-002",
+          "type": "detail",
+          "question": "According to the passage, schools may use gardens to teach students about",
+          "choices": [
+            "airline schedules and travel planning",
+            "nutrition, biology, and environmental responsibility",
+            "ancient architecture and road construction",
+            "banking systems and international trade"
+          ],
+          "answer": 1,
+          "explanation": "The passage states that schools and community centers use gardens to teach nutrition, biology, and environmental responsibility."
+        },
+        {
+          "id": "R3-003",
+          "type": "vocabulary",
+          "question": "The word 'vacant' in the passage is closest in meaning to",
+          "choices": [
+            "empty",
+            "expensive",
+            "crowded",
+            "protected"
+          ],
+          "answer": 0,
+          "explanation": "'Vacant' means empty or not currently being used."
+        },
+        {
+          "id": "R3-004",
+          "type": "inference",
+          "question": "What can be inferred about urban agriculture projects?",
+          "choices": [
+            "They may need support from several groups to succeed.",
+            "They never require water.",
+            "They are always illegal in cities.",
+            "They are useful only in rural areas."
+          ],
+          "answer": 0,
+          "explanation": "The passage says successful projects often require cooperation among residents, governments, and experts."
+        },
+        {
+          "id": "R3-005",
+          "type": "purpose",
+          "question": "Why does the author mention soil pollutants and limited water access?",
+          "choices": [
+            "To give examples of challenges faced by urban agriculture",
+            "To explain why gardens need no planning",
+            "To prove that cities cannot grow any plants",
+            "To show that rooftop gardens are older than community gardens"
+          ],
+          "answer": 0,
+          "explanation": "These details are examples of problems that urban agriculture projects may face."
+        }
+      ]
+    },
+    {
+      "id": "R3-PASSAGE-002",
+      "title": "Coral Reefs and Marine Life",
+      "passage": "Coral reefs are sometimes called the rainforests of the sea because they support an extraordinary variety of marine life. Although reefs occupy only a small portion of the ocean floor, they provide shelter, breeding areas, and food sources for thousands of species. Coral reefs also benefit human communities by protecting coastlines from strong waves and supporting fishing and tourism industries. However, reefs are highly sensitive to changes in their environment. Rising water temperatures, pollution, and destructive fishing practices can damage coral systems. When corals experience severe stress, they may lose the colorful algae that live inside them, a process known as bleaching. If stressful conditions continue for too long, bleached corals may die, reducing the habitat available to many marine organisms.",
+      "questions": [
+        {
+          "id": "R3-006",
+          "type": "main-idea",
+          "question": "What is the passage mainly about?",
+          "choices": [
+            "The importance of coral reefs and the threats they face",
+            "The history of fishing tools in coastal areas",
+            "The reasons rainforests grow near oceans",
+            "The process of building artificial islands"
+          ],
+          "answer": 0,
+          "explanation": "The passage discusses coral reef benefits and environmental threats such as warming, pollution, and bleaching."
+        },
+        {
+          "id": "R3-007",
+          "type": "detail",
+          "question": "According to the passage, coral reefs help human communities by",
+          "choices": [
+            "creating all ocean currents",
+            "protecting coastlines and supporting fishing and tourism",
+            "eliminating the need for boats",
+            "making seawater fresh"
+          ],
+          "answer": 1,
+          "explanation": "The passage states that coral reefs protect coastlines and support fishing and tourism industries."
+        },
+        {
+          "id": "R3-008",
+          "type": "vocabulary",
+          "question": "The word 'extraordinary' in the passage is closest in meaning to",
+          "choices": [
+            "unusual or remarkable",
+            "ordinary and simple",
+            "small and hidden",
+            "weak or temporary"
+          ],
+          "answer": 0,
+          "explanation": "'Extraordinary' means remarkable or very unusual."
+        },
+        {
+          "id": "R3-009",
+          "type": "inference",
+          "question": "What can be inferred about coral bleaching?",
+          "choices": [
+            "It is a sign that corals are under stress.",
+            "It always improves coral health.",
+            "It happens only when fishing stops.",
+            "It creates more algae inside corals."
+          ],
+          "answer": 0,
+          "explanation": "The passage says corals may bleach when they experience severe stress."
+        },
+        {
+          "id": "R3-010",
+          "type": "reference",
+          "question": "The word 'them' in the phrase 'live inside them' refers to",
+          "choices": [
+            "corals",
+            "waves",
+            "coastlines",
+            "industries"
+          ],
+          "answer": 0,
+          "explanation": "The algae live inside corals, so 'them' refers to corals."
+        }
+      ]
+    },
+    {
+      "id": "R3-PASSAGE-003",
+      "title": "The Importance of Sleep",
+      "passage": "Sleep is essential for both physical and mental health. During sleep, the body repairs tissues, regulates hormones, and supports immune function. Sleep also plays an important role in learning and memory. Research suggests that the brain strengthens newly acquired information during certain stages of sleep, making it easier to remember later. People who regularly sleep too little may experience difficulty concentrating, slower reaction times, and reduced problem-solving ability. Lack of sleep has also been associated with increased risk of certain health problems. Although individual sleep needs vary, many adults function best when they get seven to nine hours of sleep each night. For students, maintaining a regular sleep schedule may be as important as studying for academic success.",
+      "questions": [
+        {
+          "id": "R3-011",
+          "type": "main-idea",
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "Sleep supports health, learning, and academic performance.",
+            "Adults need exactly the same amount of sleep every night.",
+            "Studying is unnecessary if students sleep enough.",
+            "The immune system works only during the day."
+          ],
+          "answer": 0,
+          "explanation": "The passage explains several benefits of sleep for the body, brain, memory, and student success."
+        },
+        {
+          "id": "R3-012",
+          "type": "detail",
+          "question": "According to the passage, during sleep the body",
+          "choices": [
+            "repairs tissues and supports immune function",
+            "stops regulating hormones completely",
+            "forgets newly acquired information",
+            "prevents all health problems"
+          ],
+          "answer": 0,
+          "explanation": "The passage states that the body repairs tissues, regulates hormones, and supports immune function during sleep."
+        },
+        {
+          "id": "R3-013",
+          "type": "vocabulary",
+          "question": "The word 'acquired' in the passage is closest in meaning to",
+          "choices": [
+            "gained or learned",
+            "lost or damaged",
+            "ignored",
+            "measured incorrectly"
+          ],
+          "answer": 0,
+          "explanation": "In this context, acquired information means information that has been gained or learned."
+        },
+        {
+          "id": "R3-014",
+          "type": "inference",
+          "question": "What can be inferred about students who do not get enough sleep?",
+          "choices": [
+            "They may have more difficulty learning effectively.",
+            "They will always perform better on tests.",
+            "They do not need regular study habits.",
+            "They can avoid all health risks."
+          ],
+          "answer": 0,
+          "explanation": "The passage links sleep to memory, concentration, and academic success."
+        },
+        {
+          "id": "R3-015",
+          "type": "detail",
+          "question": "How much sleep do many adults need to function best?",
+          "choices": [
+            "Three to four hours",
+            "Five hours exactly",
+            "Seven to nine hours",
+            "More than twelve hours"
+          ],
+          "answer": 2,
+          "explanation": "The passage states that many adults function best with seven to nine hours of sleep each night."
+        }
+      ]
+    },
+    {
+      "id": "R3-PASSAGE-004",
+      "title": "The Development of Museums",
+      "passage": "Modern museums serve many purposes beyond simply displaying objects. Early collections were often private and accessible only to wealthy individuals or scholars. Over time, however, museums became more public institutions intended to educate broader audiences. Today, museums preserve cultural artifacts, scientific specimens, works of art, and historical documents. They also design exhibitions that help visitors understand the context and significance of the objects on display. Many museums now offer lectures, school programs, digital archives, and interactive exhibits. These changes reflect a broader shift in the role of museums from storage places for valuable objects to active centers of learning and community engagement. Nevertheless, museums continue to face challenges, including limited funding and debates over the ownership of cultural objects.",
+      "questions": [
+        {
+          "id": "R3-016",
+          "type": "main-idea",
+          "question": "What is the passage mainly about?",
+          "choices": [
+            "Museums have developed into public centers for learning and engagement.",
+            "Museums are no longer interested in preserving objects.",
+            "Private collections are more educational than public museums.",
+            "Digital archives have replaced all museum exhibitions."
+          ],
+          "answer": 0,
+          "explanation": "The passage describes how museums changed from private collections to public learning institutions."
+        },
+        {
+          "id": "R3-017",
+          "type": "detail",
+          "question": "According to the passage, early collections were often accessible only to",
+          "choices": [
+            "wealthy individuals or scholars",
+            "schoolchildren and tourists",
+            "factory workers",
+            "local farmers"
+          ],
+          "answer": 0,
+          "explanation": "The passage states that early collections were often private and accessible only to wealthy people or scholars."
+        },
+        {
+          "id": "R3-018",
+          "type": "vocabulary",
+          "question": "The word 'significance' in the passage is closest in meaning to",
+          "choices": [
+            "importance",
+            "size",
+            "color",
+            "location"
+          ],
+          "answer": 0,
+          "explanation": "'Significance' means importance or meaning."
+        },
+        {
+          "id": "R3-019",
+          "type": "inference",
+          "question": "What can be inferred about modern museums?",
+          "choices": [
+            "They try to make information accessible in different ways.",
+            "They no longer need visitors.",
+            "They only store objects and avoid education.",
+            "They have unlimited funding."
+          ],
+          "answer": 0,
+          "explanation": "The passage mentions lectures, school programs, digital archives, and interactive exhibits."
+        },
+        {
+          "id": "R3-020",
+          "type": "purpose",
+          "question": "Why does the author mention limited funding and ownership debates?",
+          "choices": [
+            "To show that museums still face challenges",
+            "To explain why museums should be closed",
+            "To prove that private collections are illegal",
+            "To describe how paintings are made"
+          ],
+          "answer": 0,
+          "explanation": "These examples are introduced as challenges that museums continue to face."
+        }
+      ]
+    },
+    {
+      "id": "R3-PASSAGE-005",
+      "title": "Renewable Energy Storage",
+      "passage": "Renewable energy sources such as solar and wind power are increasingly important in efforts to reduce dependence on fossil fuels. However, these sources present a challenge because they do not produce electricity continuously. Solar panels generate power only when sunlight is available, and wind turbines depend on wind conditions. For this reason, energy storage systems are essential for making renewable energy more reliable. Batteries can store excess electricity produced during periods of high generation and release it when demand is greater or production is lower. Other storage methods include pumped hydroelectric systems, compressed air, and thermal storage. Although storage technology has improved significantly, cost and efficiency remain major concerns. Continued research is needed to develop systems that are affordable, durable, and suitable for large-scale use.",
+      "questions": [
+        {
+          "id": "R3-021",
+          "type": "main-idea",
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "Energy storage is important for making renewable energy more reliable.",
+            "Solar and wind power produce electricity continuously.",
+            "Fossil fuels are the only affordable energy source.",
+            "Batteries cannot store electricity."
+          ],
+          "answer": 0,
+          "explanation": "The passage focuses on the need for energy storage to support renewable energy."
+        },
+        {
+          "id": "R3-022",
+          "type": "detail",
+          "question": "Why do solar and wind energy require storage systems?",
+          "choices": [
+            "They do not produce electricity continuously.",
+            "They produce too much electricity at night.",
+            "They are not affected by weather conditions.",
+            "They cannot be used with batteries."
+          ],
+          "answer": 0,
+          "explanation": "The passage says solar depends on sunlight and wind power depends on wind conditions."
+        },
+        {
+          "id": "R3-023",
+          "type": "vocabulary",
+          "question": "The word 'excess' in the passage is closest in meaning to",
+          "choices": [
+            "extra",
+            "missing",
+            "dangerous",
+            "expensive"
+          ],
+          "answer": 0,
+          "explanation": "'Excess' means extra or more than is immediately needed."
+        },
+        {
+          "id": "R3-024",
+          "type": "inference",
+          "question": "What can be inferred about current storage technology?",
+          "choices": [
+            "It has improved, but it still needs further development.",
+            "It has solved all problems related to renewable energy.",
+            "It is no longer used by energy companies.",
+            "It works only with fossil fuels."
+          ],
+          "answer": 0,
+          "explanation": "The passage says storage technology has improved, but cost and efficiency remain concerns."
+        },
+        {
+          "id": "R3-025",
+          "type": "detail",
+          "question": "Which storage method is NOT mentioned in the passage?",
+          "choices": [
+            "Compressed air",
+            "Thermal storage",
+            "Pumped hydroelectric systems",
+            "Nuclear fusion storage"
+          ],
+          "answer": 3,
+          "explanation": "The passage mentions batteries, pumped hydroelectric systems, compressed air, and thermal storage, but not nuclear fusion storage."
+        }
+      ]
+    },
+    {
+      "id": "R3-PASSAGE-006",
+      "title": "The Value of Field Research",
+      "passage": "Field research allows scientists to study subjects in natural settings rather than only in laboratories. This approach is especially important in fields such as ecology, anthropology, geology, and animal behavior. By observing conditions directly, researchers can collect information that might not appear in controlled experiments. For example, an ecologist studying a forest can examine how plants, animals, soil, and climate interact in complex ways. Similarly, an anthropologist may gain deeper understanding of a community by observing daily routines and social interactions. Field research can be time-consuming and unpredictable because weather, travel conditions, and access to research sites may create difficulties. Nevertheless, it provides valuable data that can improve scientific understanding of real-world systems.",
+      "questions": [
+        {
+          "id": "R3-026",
+          "type": "main-idea",
+          "question": "What is the main idea of the passage?",
+          "choices": [
+            "Field research provides valuable information from natural settings.",
+            "Laboratory experiments are unnecessary in all sciences.",
+            "Field research is always easier than laboratory research.",
+            "Scientists should avoid studying real-world systems."
+          ],
+          "answer": 0,
+          "explanation": "The passage explains the value of studying subjects in natural settings despite practical challenges."
+        },
+        {
+          "id": "R3-027",
+          "type": "detail",
+          "question": "Which field is mentioned as one that often uses field research?",
+          "choices": [
+            "Ecology",
+            "Accounting",
+            "Architecture design only",
+            "Airline management"
+          ],
+          "answer": 0,
+          "explanation": "The passage mentions ecology, anthropology, geology, and animal behavior."
+        },
+        {
+          "id": "R3-028",
+          "type": "vocabulary",
+          "question": "The word 'unpredictable' in the passage is closest in meaning to",
+          "choices": [
+            "difficult to know in advance",
+            "always simple",
+            "completely controlled",
+            "not useful"
+          ],
+          "answer": 0,
+          "explanation": "'Unpredictable' means difficult to predict or know ahead of time."
+        },
+        {
+          "id": "R3-029",
+          "type": "inference",
+          "question": "What can be inferred about controlled experiments?",
+          "choices": [
+            "They may not reveal every detail of natural systems.",
+            "They are never useful to scientists.",
+            "They are used only by anthropologists.",
+            "They always include weather problems."
+          ],
+          "answer": 0,
+          "explanation": "The passage says field research can collect information that might not appear in controlled experiments."
+        },
+        {
+          "id": "R3-030",
+          "type": "purpose",
+          "question": "Why does the author mention weather, travel conditions, and access to research sites?",
+          "choices": [
+            "To give examples of difficulties in field research",
+            "To show that field research is always quick",
+            "To prove that laboratory work is impossible",
+            "To explain why scientists avoid collecting data"
+          ],
+          "answer": 0,
+          "explanation": "These are examples of factors that can make field research time-consuming and unpredictable."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,292 @@
+{
+  "meta": {
+    "testName": "TOEFL ITP-like Practice",
+    "section": "listening",
+    "set": "set-2",
+    "version": "1.0.0",
+    "durationMinutes": 18,
+    "totalQuestions": 20
+  },
+  "items": [
+    {
+      "id": "L2-AUDIO-001",
+      "type": "conversation",
+      "title": "Conversation about a biology lab report",
+      "ttsText": "Narrator. Listen to a conversation between a student and a teaching assistant. Student. Hi, I have a question about the biology lab report that is due on Friday. Teaching assistant. Sure. What are you having trouble with? Student. I understand the experiment, but I am not sure how detailed the discussion section should be. Teaching assistant. In the discussion section, you should explain what the results mean, not just repeat the data from the table. Student. So I should compare our results with the hypothesis? Teaching assistant. Exactly. You should also mention possible sources of error, especially if your results were different from what you expected. Student. That makes sense. Should I include all of the raw measurements? Teaching assistant. Put the raw measurements in the appendix. In the main report, include a summary table and explain the most important patterns. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L2-001",
+          "question": "Why does the student speak with the teaching assistant?",
+          "choices": [
+            "To ask about the discussion section of a lab report",
+            "To request permission to miss a biology exam",
+            "To borrow equipment for an experiment",
+            "To complain about a missing grade"
+          ],
+          "answer": 0,
+          "explanation": "The student says he is unsure how detailed the discussion section should be."
+        },
+        {
+          "id": "L2-002",
+          "question": "What does the teaching assistant say the discussion section should do?",
+          "choices": [
+            "List only the raw measurements",
+            "Explain what the results mean",
+            "Replace the summary table",
+            "Describe the laboratory building"
+          ],
+          "answer": 1,
+          "explanation": "The teaching assistant says the discussion section should explain the meaning of the results."
+        },
+        {
+          "id": "L2-003",
+          "question": "What should the student mention if the results were unexpected?",
+          "choices": [
+            "The names of all classmates",
+            "Possible sources of error",
+            "The cost of the experiment",
+            "A new research topic"
+          ],
+          "answer": 1,
+          "explanation": "The teaching assistant tells the student to mention possible sources of error."
+        },
+        {
+          "id": "L2-004",
+          "question": "Where should the raw measurements be placed?",
+          "choices": [
+            "In the introduction",
+            "In the conclusion",
+            "In the appendix",
+            "On the title page"
+          ],
+          "answer": 2,
+          "explanation": "The teaching assistant says to put the raw measurements in the appendix."
+        }
+      ]
+    },
+    {
+      "id": "L2-AUDIO-002",
+      "type": "conversation",
+      "title": "Conversation about course registration",
+      "ttsText": "Narrator. Listen to a conversation between a student and an academic advisor. Student. Good morning. I tried to register for Introduction to Psychology, but the system says the class is full. Advisor. Let me check. Yes, that section is full, but there is another section that meets on Tuesday and Thursday afternoons. Student. I have a part-time job on Thursdays, so that might be difficult. Advisor. In that case, you can put your name on the waiting list for the morning section. Sometimes students change their schedules during the first week. Student. If I get on the waiting list, should I also register for a different class? Advisor. Yes, that would be wise. Choose another general education course now, and if a seat opens in psychology, you can switch later. Student. Okay, I will do that. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L2-005",
+          "question": "What problem does the student have?",
+          "choices": [
+            "He forgot his advisor's name",
+            "The psychology class he wants is full",
+            "He failed a general education course",
+            "The registration system is closed for the semester"
+          ],
+          "answer": 1,
+          "explanation": "The student says he tried to register for Introduction to Psychology, but the system says it is full."
+        },
+        {
+          "id": "L2-006",
+          "question": "Why is the Tuesday and Thursday section difficult for the student?",
+          "choices": [
+            "He works on Thursdays",
+            "He has a laboratory on Tuesdays",
+            "He lives far from campus",
+            "He does not like afternoon classes"
+          ],
+          "answer": 0,
+          "explanation": "The student says he has a part-time job on Thursdays."
+        },
+        {
+          "id": "L2-007",
+          "question": "What does the advisor suggest the student do?",
+          "choices": [
+            "Stop taking general education courses",
+            "Put his name on the waiting list",
+            "Wait until next year to register for any class",
+            "Ask the professor to cancel the class"
+          ],
+          "answer": 1,
+          "explanation": "The advisor suggests that the student put his name on the waiting list for the morning section."
+        },
+        {
+          "id": "L2-008",
+          "question": "Why should the student register for another course now?",
+          "choices": [
+            "So he has a backup class if psychology remains full",
+            "So he can graduate without taking psychology",
+            "So he can avoid meeting the advisor again",
+            "So the psychology class will be canceled"
+          ],
+          "answer": 0,
+          "explanation": "The advisor recommends registering for another class now and switching later if a seat opens."
+        }
+      ]
+    },
+    {
+      "id": "L2-AUDIO-003",
+      "type": "talk",
+      "title": "Campus announcement about the writing center",
+      "ttsText": "Narrator. Listen to part of a campus announcement. Speaker. The university writing center will extend its evening hours beginning next week. The center will now remain open until nine p.m. from Monday through Thursday. The change is intended to help students who have classes or jobs during the day. Students may bring essays, research papers, personal statements, or lab reports to the center. Tutors will not write papers for students, but they can help with organization, thesis development, grammar, and citation style. Appointments can be made online, although a limited number of walk-in sessions will be available each evening. Students are encouraged to schedule appointments early during midterm and final exam periods. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L2-009",
+          "question": "What is the main purpose of the announcement?",
+          "choices": [
+            "To announce extended hours at the writing center",
+            "To describe a new literature course",
+            "To cancel evening tutoring sessions",
+            "To explain changes to final exam schedules"
+          ],
+          "answer": 0,
+          "explanation": "The speaker announces that the writing center will extend its evening hours."
+        },
+        {
+          "id": "L2-010",
+          "question": "Why is the writing center extending its hours?",
+          "choices": [
+            "To help students who are busy during the day",
+            "To replace all classroom writing instruction",
+            "To require every student to attend tutoring",
+            "To provide free textbooks"
+          ],
+          "answer": 0,
+          "explanation": "The change is intended to help students who have classes or jobs during the day."
+        },
+        {
+          "id": "L2-011",
+          "question": "What will tutors NOT do?",
+          "choices": [
+            "Help with organization",
+            "Discuss citation style",
+            "Write papers for students",
+            "Help with thesis development"
+          ],
+          "answer": 2,
+          "explanation": "The announcement says tutors will not write papers for students."
+        },
+        {
+          "id": "L2-012",
+          "question": "What are students encouraged to do during busy periods?",
+          "choices": [
+            "Schedule appointments early",
+            "Avoid bringing research papers",
+            "Use only walk-in sessions",
+            "Wait until the last day of exams"
+          ],
+          "answer": 0,
+          "explanation": "Students are encouraged to schedule appointments early during midterm and final exam periods."
+        }
+      ]
+    },
+    {
+      "id": "L2-AUDIO-004",
+      "type": "talk",
+      "title": "Short academic talk about desert plants",
+      "ttsText": "Narrator. Listen to part of a lecture in a botany class. Professor. Desert plants have developed several adaptations that allow them to survive in extremely dry environments. One common adaptation is the ability to store water in thick stems or leaves. Cacti, for example, can store large amounts of water after rare rainfall. Another adaptation is a reduced leaf surface. Many desert plants have small leaves or spines, which reduce water loss through evaporation. Some plants also have deep root systems that reach underground water, while others have shallow roots that spread widely and absorb rainwater quickly. These adaptations do not eliminate the challenges of desert life, but they make survival possible in conditions where ordinary plants would quickly dry out. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L2-013",
+          "question": "What is the lecture mainly about?",
+          "choices": [
+            "How desert plants survive dry conditions",
+            "How deserts are formed by ocean currents",
+            "Why cacti cannot store water",
+            "Why ordinary plants grow best in deserts"
+          ],
+          "answer": 0,
+          "explanation": "The professor discusses adaptations that help desert plants survive in dry environments."
+        },
+        {
+          "id": "L2-014",
+          "question": "Why do many desert plants have small leaves or spines?",
+          "choices": [
+            "To attract more insects",
+            "To reduce water loss",
+            "To grow taller than trees",
+            "To prevent roots from spreading"
+          ],
+          "answer": 1,
+          "explanation": "The professor says small leaves or spines reduce water loss through evaporation."
+        },
+        {
+          "id": "L2-015",
+          "question": "What is one function of shallow roots in some desert plants?",
+          "choices": [
+            "To absorb rainwater quickly",
+            "To prevent the plant from flowering",
+            "To store sunlight underground",
+            "To stop evaporation from leaves"
+          ],
+          "answer": 0,
+          "explanation": "The professor explains that shallow roots can spread widely and absorb rainwater quickly."
+        },
+        {
+          "id": "L2-016",
+          "question": "What does the professor imply about ordinary plants?",
+          "choices": [
+            "They would have difficulty surviving in desert conditions",
+            "They store more water than cacti",
+            "They have no need for roots",
+            "They grow only after rare rainfall"
+          ],
+          "answer": 0,
+          "explanation": "The professor says ordinary plants would quickly dry out in desert conditions."
+        }
+      ]
+    },
+    {
+      "id": "L2-AUDIO-005",
+      "type": "talk",
+      "title": "Short academic talk about public libraries",
+      "ttsText": "Narrator. Listen to part of a lecture in a social history class. Professor. Public libraries have long served as important community institutions. In the nineteenth and early twentieth centuries, many libraries were established to provide access to books for people who could not afford private collections. Over time, their role expanded. Libraries became places where immigrants could learn a new language, workers could study technical skills, and children could develop reading habits. Today, public libraries still lend books, but they also provide internet access, job search assistance, community programs, and quiet study spaces. Although digital technology has changed the way people find information, libraries continue to support education and civic life in ways that go beyond simply storing books. Narrator. Now answer the questions.",
+      "questions": [
+        {
+          "id": "L2-017",
+          "question": "What is the main idea of the lecture?",
+          "choices": [
+            "Public libraries have expanded their role in community life over time",
+            "Public libraries are no longer useful because of digital technology",
+            "Libraries were created only for wealthy people",
+            "Libraries today are used only by children"
+          ],
+          "answer": 0,
+          "explanation": "The professor explains how public libraries have served many community needs over time."
+        },
+        {
+          "id": "L2-018",
+          "question": "Why were many libraries established in the nineteenth and early twentieth centuries?",
+          "choices": [
+            "To provide access to books for people without private collections",
+            "To replace all schools",
+            "To sell books to immigrants",
+            "To prevent workers from studying technical skills"
+          ],
+          "answer": 0,
+          "explanation": "The professor says many libraries were established to provide book access to people who could not afford private collections."
+        },
+        {
+          "id": "L2-019",
+          "question": "Which service is mentioned as something libraries provide today?",
+          "choices": [
+            "Job search assistance",
+            "Free housing",
+            "Medical treatment",
+            "Airline reservations"
+          ],
+          "answer": 0,
+          "explanation": "The professor says public libraries today provide internet access, job search assistance, community programs, and study spaces."
+        },
+        {
+          "id": "L2-020",
+          "question": "What does the professor imply about digital technology?",
+          "choices": [
+            "It has changed how people find information, but libraries remain important",
+            "It has made education impossible",
+            "It has eliminated the need for community programs",
+            "It has forced libraries to stop lending books"
+          ],
+          "answer": 0,
+          "explanation": "The professor says digital technology changed information access, but libraries still support education and civic life."
+        }
+      ]
+    }
+  ]
+}
