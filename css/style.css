@@ -16,9 +16,9 @@
   --cream: #fdf8f0;
   --gray50: #f7f7f5;
   --gray100: #ebebea;
-  --gray400: #9b9b97;
-  --gray700: #3d3d3a;
-  --text: #1a1a17;
+  --gray400: #7a7a75;
+  --gray700: #2f2f2b;
+  --text: #111111;
   --shadow: rgba(11, 31, 75, 0.12);
   --card-radius: 18px;
 }
@@ -78,11 +78,11 @@ body {
   background: rgba(232, 168, 56, 0.18);
   color: var(--accent);
   border: 1px solid rgba(232, 168, 56, 0.4);
-  font-size: 11px;
-  font-weight: 700;
+  font-size: 12px;
+  font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
-  padding: 5px 14px;
+  padding: 6px 16px;
   border-radius: 40px;
   margin-bottom: 20px;
 }
@@ -90,7 +90,7 @@ body {
 .app-title {
   font-family: Georgia, "Times New Roman", serif;
   font-weight: 900;
-  font-size: clamp(36px, 5vw, 62px);
+  font-size: clamp(38px, 5vw, 68px);
   color: #ffffff;
   line-height: 1.1;
   letter-spacing: -0.5px;
@@ -101,21 +101,49 @@ body {
 }
 
 .app-subtitle {
-  margin-top: 14px;
-  font-size: 16px;
-  color: rgba(255, 255, 255, 0.72);
-  font-weight: 400;
+  margin-top: 16px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.82);
+  font-weight: 500;
   letter-spacing: 0.2px;
+}
+
+.header-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
 }
 
 .app-author {
   display: inline-block;
-  margin-top: 16px;
-  font-size: 13px;
-  font-weight: 600;
-  color: rgba(255, 255, 255, 0.55);
+  font-size: 15px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.82);
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.home-portal-link,
+.home-portal-link:visited,
+.home-portal-link:active {
+  display: inline-block;
+  background: rgba(232, 168, 56, 0.16);
+  color: #ffffff;
+  border: 1px solid rgba(232, 168, 56, 0.45);
+  border-radius: 999px;
+  padding: 9px 18px;
+  font-size: 15px;
+  font-weight: 800;
+  text-decoration: none;
+  transition: 0.18s ease;
+}
+
+.home-portal-link:hover {
+  background: rgba(232, 168, 56, 0.34);
+  color: #ffffff;
+  transform: translateY(-1px);
 }
 
 /* Layout */
@@ -146,17 +174,17 @@ body {
 }
 
 .intro-card h2 {
-  font-size: 26px;
-  font-weight: 800;
+  font-size: 30px;
+  font-weight: 900;
   color: var(--navy);
   margin-bottom: 10px;
 }
 
 .intro-card p {
-  font-size: 14.5px;
-  color: var(--gray400);
+  font-size: 18px;
+  color: var(--text);
   line-height: 1.65;
-  max-width: 520px;
+  max-width: 680px;
 }
 
 .home-three-column {
@@ -201,8 +229,8 @@ body {
 
 .test-info h2,
 .practice-area h2 {
-  font-size: 20px;
-  font-weight: 800;
+  font-size: 26px;
+  font-weight: 900;
   color: var(--navy);
   margin-bottom: 20px;
   padding-bottom: 14px;
@@ -221,16 +249,22 @@ body {
 
 button {
   font-family: "Segoe UI", Arial, sans-serif;
-  font-size: 15px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 800;
   border: none;
   border-radius: 10px;
-  padding: 11px 22px;
+  padding: 12px 24px;
   cursor: pointer;
   transition: all 0.18s ease;
   letter-spacing: 0.1px;
   background: var(--blue);
   color: #ffffff;
+}
+
+button:hover {
+  background: #0f2a6b;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(26, 58, 143, 0.3);
 }
 
 #btn-nav-listening {
@@ -250,31 +284,25 @@ button {
 
 #btn-nav-listening:hover {
   background: #0f2a6b;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(26, 58, 143, 0.3);
 }
 
 #btn-nav-structure:hover {
   background: #09705f;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(13, 140, 123, 0.3);
 }
 
 #btn-nav-reading:hover {
   background: #432f80;
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(91, 63, 166, 0.3);
 }
 
 .btn-full-test {
   background: var(--accent);
   color: var(--navy);
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .btn-full-test:hover {
   background: #d4942b;
-  transform: translateY(-2px);
+  color: var(--navy);
   box-shadow: 0 6px 18px rgba(232, 168, 56, 0.38);
 }
 
@@ -320,9 +348,9 @@ button:disabled {
 }
 
 .info-box h3 {
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.8px;
+  font-size: 16px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   margin-bottom: 8px;
 }
@@ -344,14 +372,15 @@ button:disabled {
 }
 
 .info-box p {
-  font-size: 13.5px;
+  font-size: 16px;
   color: var(--text);
-  line-height: 1.6;
+  line-height: 1.65;
   margin: 5px 0;
 }
 
 .info-box strong {
   color: var(--text);
+  font-weight: 900;
 }
 
 .stat-row {
@@ -362,16 +391,16 @@ button:disabled {
 }
 
 .stat-pill {
-  font-size: 11.5px;
-  font-weight: 700;
-  padding: 3px 10px;
+  font-size: 14px;
+  font-weight: 800;
+  padding: 5px 12px;
   border-radius: 20px;
   background: rgba(11, 31, 75, 0.07);
   color: var(--navy);
 }
 
 .practice-area p {
-  font-size: 14px;
+  font-size: 17px;
   color: var(--text);
   line-height: 1.7;
 }
@@ -384,7 +413,7 @@ button:disabled {
 .muted-note {
   margin-top: 6px;
   font-style: italic;
-  opacity: 0.72;
+  opacity: 0.78;
 }
 
 /* Dynamic test content */
@@ -397,7 +426,7 @@ button:disabled {
   background: #ffffff;
   border: 1px solid #d7dde7;
   border-radius: 12px;
-  padding: 18px;
+  padding: 20px;
   margin: 16px 0;
 }
 
@@ -407,21 +436,36 @@ button:disabled {
 .score-box h3,
 .restart-box h3 {
   margin-top: 0;
+  font-size: 22px;
+  color: var(--navy);
+}
+
+.question-card p,
+.passage-card p,
+.audio-box p,
+.score-box p,
+.restart-box p {
+  font-size: 17px;
+  color: var(--text);
+  line-height: 1.65;
 }
 
 .question-meta {
-  color: #475569;
-  font-size: 14px;
+  color: #334155;
+  font-size: 15px;
 }
 
 .choice {
   display: block;
   background: #f8fafc;
   border: 1px solid #dbe3ef;
-  border-radius: 8px;
-  padding: 10px;
-  margin: 9px 0;
+  border-radius: 10px;
+  padding: 13px;
+  margin: 10px 0;
   cursor: pointer;
+  font-size: 17px;
+  color: var(--text);
+  line-height: 1.5;
 }
 
 .choice:hover {
@@ -436,6 +480,7 @@ button:disabled {
 .explanation {
   margin-top: 12px;
   line-height: 1.5;
+  font-size: 16px;
 }
 
 .correct {
@@ -449,8 +494,9 @@ button:disabled {
 }
 
 .passage-text {
-  line-height: 1.7;
+  line-height: 1.75;
   white-space: pre-line;
+  font-size: 17px;
 }
 
 .audio-box {
@@ -468,7 +514,8 @@ button:disabled {
 .audio-status {
   margin-top: 10px;
   font-weight: bold;
-  color: #475569;
+  color: #334155;
+  font-size: 16px;
 }
 
 .btn-play {
@@ -516,12 +563,12 @@ button:disabled {
 
 .timer-box p {
   margin: 5px 0 0;
-  color: #475569;
-  font-size: 14px;
+  color: #334155;
+  font-size: 15px;
 }
 
 .timer-display {
-  font-size: 30px;
+  font-size: 32px;
   font-weight: bold;
   color: #0e7490;
 }
@@ -547,10 +594,6 @@ button:disabled {
 .score-box {
   background: #f0fdf4;
   border-color: #86efac;
-}
-
-.score-box p {
-  line-height: 1.5;
 }
 
 .restart-box {
@@ -583,8 +626,8 @@ button:disabled {
 .app-footer {
   text-align: center;
   padding: 32px 24px 40px;
-  font-size: 13px;
-  color: var(--gray400);
+  font-size: 15px;
+  color: var(--gray700);
   line-height: 1.8;
   border-top: 1px solid var(--gray100);
   margin-top: 20px;
@@ -593,7 +636,7 @@ button:disabled {
 .app-footer a {
   color: var(--blue);
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 800;
 }
 
 .app-footer a:hover {
@@ -633,7 +676,7 @@ code {
   }
 
   .app-subtitle {
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .home-three-column {
